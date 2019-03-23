@@ -17,6 +17,11 @@ def index():
 def feedback():
 	"""Video streaming home page."""
 	return render_template('feedback.html')
+
+@app.route('/baidu_verify_FH3320KJLK.html')
+def baidu_verify_FH3320KJLK():
+	"""Video streaming home page."""
+	return render_template('baidu_verify_FH3320KJLK.html')
 	
 @app.route('/send_email', methods=['POST'])
 def send_email():
