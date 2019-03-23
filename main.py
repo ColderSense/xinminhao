@@ -25,7 +25,7 @@ def baidu_verify_FH3320KJLK():
 	
 @app.route('/send_email', methods=['POST'])
 def send_email():
-	sender = 'leecqchn@163.com'
+	sender = 'lee_cq@qq.com'
 	receiver = 'lee_cq@qq.com'
 	data = request.get_json()
 	name =data['name']
@@ -33,15 +33,14 @@ def send_email():
 	message = data['message']
 	print(name, email, message)
 	
-	send_msg = 'The person ' + name + ' has send some message to you,' + 'the email is: ' + email + ', the feedback message is: ' + message
+	send_msg = 'The person ' + name + ' has send some message to you.\n' + 'his email is: ' + email + ' .\n' + 'The feedback message is: ' + message + ' .'
 	msg=MIMEText(send_msg,'plain','utf-8')
 	msg['From']=formataddr([name,sender])   #括号里的对应发件人邮箱昵称、发件人邮箱账号
 	msg['To']=formataddr(["lichaoqun",receiver])   #括号里的对应收件人邮箱昵称、收件人邮箱账号
 	msg['Subject']="xinminhao_feedback" #邮件的主题，也可以说是标题
 		
-	smtp = smtplib.SMTP() 
-	smtp.connect('smtp.163.com',25) 
-	smtp.login('leecqchn@163.com', 'lcq19930819') 
+	smtp = smtplib.SMTP_SSL('smtp.qq.com', 465)
+	smtp.login('lee_cq@qq.com', 'iivbrmyuqlcmbaad') 
 	smtp.sendmail(sender, receiver, msg.as_string()) 
 	smtp.quit()
 	print(jsonify({"msg": "success"}))
