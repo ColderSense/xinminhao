@@ -7,7 +7,7 @@ from email.utils import formataddr
 
 
 def send_email():
-	sender = 'leecqchn@163.com'
+	sender = 'lee_cq@qq.com'
 	receiver = 'lee_cq@qq.com'
 	name = 'lichaoqun'
 	email = 'email'
@@ -19,9 +19,9 @@ def send_email():
 	msg['To']=formataddr(["lichaoqun",receiver])   #括号里的对应收件人邮箱昵称、收件人邮箱账号
 	msg['Subject']="xinminhao_feedback" #邮件的主题，也可以说是标题
 		
-	smtp = smtplib.SMTP() 
-	smtp.connect('smtp.163.com',25) 
-	smtp.login('leecqchn@163.com', 'lcq19930819') 
+	smtp = smtplib.SMTP_SSL('smtp.qq.com', 465)
+	print('connect sucess')
+	smtp.login('lee_cq@qq.com', 'iivbrmyuqlcmbaad') 
 	smtp.sendmail(sender, receiver, msg.as_string()) 
 	smtp.quit()
 
