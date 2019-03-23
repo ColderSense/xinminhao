@@ -215,7 +215,7 @@
 							</div>
 						</div>
 					</div>
-					<h4>大棚管</h4>
+					<h4>大棚管及其配件</h4>
 					<p>Field Worker</p>
 				</div>
 				<div class="col-md-3 wthree_team_grid">
@@ -439,7 +439,7 @@
 				<h3 class="tittle">联系我们</h3>
 		<p class="heading-btm-w3ls">若您需要我们的服务，请与我们反馈，我们将第一时间给您答复</p>
 				<div class="col-md-3 contact-left">
-					<h4>公司地址</h4>
+					<h4>公司 地址</h4>
 					<p>武汉市江夏区大桥新区何家湖德成钢贸大市场西区11-13/26,</p>
 					<p>湖北省,</p>
 					<p>DC 20037, 中国</p>
@@ -449,17 +449,17 @@
 				</div>
 				<div class="col-md-9 contact-middle">
 					<h2>欢迎您的反馈</h2>
-					<form action="/feedback" name="form1">
+					<form action="#" method="post">
 					<div class="form-agileinfo">
 						<p>用户名</p>
-						<input type="text" name="name" placeholder="您的用户名" required="" />
+						<input type="text" name="your name" placeholder="您的用户名" required="" />
 						<p>邮箱</p>
-						<input type="email" name="email" placeholder="您的邮箱" required="" />
+						<input type="email" name="your email" placeholder="您的邮箱" required="" />
 					</div>
 					<div class="form-agileits-w3layouts">
 					<p>您的反馈</p>
-						<textarea  name="message" placeholder="您的反馈" required ></textarea>
-							<input type="submit"   value="发送" onclick="send_email()">
+						<textarea  name="your message" placeholder="您的反馈" required ></textarea>
+							<input type="submit"   value="发送">
 					</div>
 					<div class="clearfix"></div>
 					</form>
@@ -582,19 +582,6 @@ fit: true
 	<a href="#home" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 <!-- //smooth scrolling -->
 <script type="text/javascript" src="{{ url_for('static', filename='js/bootstrap-3.1.1.min.js') }}"></script>
-<script type="text/javascript">
-	function send_email(){
-		var name = document.form1.name.value;
-		var email = document.form1.email.value;
-		var message = document.form1.message.value;
-		$.ajax({
-		  url:'/send_email',
-		  type:'POST',
-		  data:JSON.stringify({'name':name,'email':email, 'message': message}),
-		  contentType: 'application/json; charset=UTF-8',
-		  dataType: 'text',
-		});
-	}
-</script>
+
 </body>
 </html>

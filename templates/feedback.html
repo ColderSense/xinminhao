@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>兴铭皓钢铁有限公司</title>
+<link rel="icon" href="{{ url_for('static', filename='images/iron.ico') }}" type="image/x-icon"/>
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link href="{{ url_for('static', filename='css/bootstrap.css') }}" rel="stylesheet" type="text/css" media="all" />
+<link href="{{ url_for('static', filename='css/font-awesome.css') }}" rel="stylesheet"> 
+<link rel="stylesheet" href="{{ url_for('static', filename='css/chocolat.css') }}" type="text/css" media="screen">
+<link href="{{ url_for('static', filename='css/easy-responsive-tabs.css') }}" rel='stylesheet' type='text/css'/>
+<link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet" type="text/css" media="all" />
+<script type="text/javascript" src="{{ url_for('static', filename='js/modernizr-2.6.2.min.js') }}"></script>
+<!--fonts-->
+<link href="{{ url_for('static', filename='css/italic.css') }}" rel='stylesheet' type='text/css'>
+<link href="{{ url_for('static', filename='css/family.css') }}" rel="stylesheet">
+
+</head>
+<body>
+
+
+
+    <div style="width: 480px;height:50px;margin: 0 auto">
+		<div style="float: left">
+			<p>非常感谢您的反馈，网页将在</p>
+		</div>
+		<div style="float: left">
+			<p class="text-danger" id="setTime"></p>
+		</div>
+		<div style="float: left">
+			<p>秒后自动跳转......</p>
+		</div>
+
+	</div>				
+	<div style="width: 480px;height:50px;margin: 0 auto">
+		<div style="float: left">
+			<p>如果未跳转请</p>
+		</div>	
+		<div style="float: left">
+			<a href="/"><p>点击此处</p></a>
+		</div>			 
+    </div>
+
+   <!--定时器-->
+    <script type="text/javascript">
+    var i = 5;
+var tId;
+document.getElementById("setTime").innerHTML = i;
+function showTime(){
+if(i == 0){
+window.clearInterval(tId);
+return;
+}
+i--;
+document.getElementById("setTime").innerHTML = i;
+if(i == 0){
+//如果时间秒数为0，跳转到指定页面
+location.replace("/");
+
+}
+
+}
+window.setInterval(showTime,1000);
+
+</script>
+    
+<!--保持网页不变形-->
+<script type="text/javascript">
+      var a=screen.availWidth;
+      var b=screen.availHeight;
+      window.moveTo(0,0)
+      window.resizeTo(a,b)
+ 
+</script>
+	
+</body>
+</html>

